@@ -72,7 +72,7 @@ namespace Ticari_Otamasyon
             this.gridControl1.Location = new System.Drawing.Point(0, 0);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(809, 591);
+            this.gridControl1.Size = new System.Drawing.Size(1166, 591);
             this.gridControl1.TabIndex = 0;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -107,7 +107,7 @@ namespace Ticari_Otamasyon
             this.groupControl1.Controls.Add(this.labelControl2);
             this.groupControl1.Controls.Add(this.txtId);
             this.groupControl1.Controls.Add(this.labelControl1);
-            this.groupControl1.Location = new System.Drawing.Point(815, 0);
+            this.groupControl1.Location = new System.Drawing.Point(1172, 2);
             this.groupControl1.Name = "groupControl1";
             this.groupControl1.Size = new System.Drawing.Size(355, 591);
             this.groupControl1.TabIndex = 1;
@@ -325,7 +325,7 @@ namespace Ticari_Otamasyon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1182, 603);
+            this.ClientSize = new System.Drawing.Size(1536, 603);
             this.Controls.Add(this.groupControl1);
             this.Controls.Add(this.gridControl1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));

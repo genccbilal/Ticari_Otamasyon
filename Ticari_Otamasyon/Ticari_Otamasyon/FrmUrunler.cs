@@ -19,14 +19,12 @@ namespace Ticari_Otamasyon
         }
         sqlBaglanti bgl = new sqlBaglanti();
 
-
         void Listele()
         {
             SqlDataAdapter da = new SqlDataAdapter("SELECT * FROM TBL_URUNLER", bgl.baglanti());
             DataTable dt = new DataTable();
             da.Fill(dt);
             gridControl1.DataSource = dt;
-
         }
 
         void Temizle()
@@ -46,6 +44,7 @@ namespace Ticari_Otamasyon
         {
             Listele();
             Temizle();
+                    
         }
 
         private void btnKaydet_Click(object sender, EventArgs e)
@@ -76,6 +75,7 @@ namespace Ticari_Otamasyon
             bgl.baglanti().Close();
             MessageBox.Show("Ürün silindi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             Listele();
+            
         }
 
         private void gridView1_FocusedRowChanged(object sender, DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventArgs e)
