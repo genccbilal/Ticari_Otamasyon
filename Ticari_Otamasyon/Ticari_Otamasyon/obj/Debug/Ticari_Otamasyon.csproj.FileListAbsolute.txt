@@ -1,0 +1,168 @@
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\Ticari_Otamasyon.exe.config
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\Ticari_Otamasyon.exe
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\Ticari_Otamasyon.pdb
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Data.Desktop.v22.1.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Data.v22.1.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Drawing.v22.1.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Utils.v22.1.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.XtraBars.v22.1.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.XtraEditors.v22.1.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Printing.v22.1.Core.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Sparkline.v22.1.Core.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Pdf.v22.1.Core.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Pdf.v22.1.Drawing.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Data.Desktop.v22.1.xml
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Data.v22.1.xml
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Utils.v22.1.xml
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.XtraBars.v22.1.xml
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.XtraEditors.v22.1.xml
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Printing.v22.1.Core.xml
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Sparkline.v22.1.Core.xml
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Pdf.v22.1.Core.xml
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Pdf.v22.1.Drawing.xml
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\de\DevExpress.Data.v22.1.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\es\DevExpress.Data.v22.1.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ja\DevExpress.Data.v22.1.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\de\DevExpress.Utils.v22.1.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\es\DevExpress.Utils.v22.1.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ja\DevExpress.Utils.v22.1.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\de\DevExpress.XtraBars.v22.1.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\es\DevExpress.XtraBars.v22.1.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ja\DevExpress.XtraBars.v22.1.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\de\DevExpress.XtraEditors.v22.1.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\es\DevExpress.XtraEditors.v22.1.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ja\DevExpress.XtraEditors.v22.1.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\de\DevExpress.Printing.v22.1.Core.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\es\DevExpress.Printing.v22.1.Core.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ja\DevExpress.Printing.v22.1.Core.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\de\DevExpress.Sparkline.v22.1.Core.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\es\DevExpress.Sparkline.v22.1.Core.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ja\DevExpress.Sparkline.v22.1.Core.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\de\DevExpress.Pdf.v22.1.Core.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\es\DevExpress.Pdf.v22.1.Core.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ja\DevExpress.Pdf.v22.1.Core.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.csproj.AssemblyReference.cache
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.Form1.resources
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.Properties.Resources.resources
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.csproj.GenerateResource.cache
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.exe.licenses
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.csproj.CoreCompileInputs.cache
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.csproj.CopyComplete
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.exe
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.pdb
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.FrmUrunler.resources
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.XtraGrid.v22.1.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.XtraLayout.v22.1.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.XtraPrinting.v22.1.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.RichEdit.v22.1.Core.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.XtraTreeList.v22.1.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Office.v22.1.Core.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.XtraGrid.v22.1.xml
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.XtraLayout.v22.1.xml
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.XtraPrinting.v22.1.xml
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.RichEdit.v22.1.Core.xml
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.XtraTreeList.v22.1.xml
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Office.v22.1.Core.xml
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\de\DevExpress.XtraGrid.v22.1.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\es\DevExpress.XtraGrid.v22.1.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ja\DevExpress.XtraGrid.v22.1.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\de\DevExpress.XtraLayout.v22.1.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\es\DevExpress.XtraLayout.v22.1.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ja\DevExpress.XtraLayout.v22.1.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\de\DevExpress.XtraPrinting.v22.1.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\es\DevExpress.XtraPrinting.v22.1.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ja\DevExpress.XtraPrinting.v22.1.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\de\DevExpress.RichEdit.v22.1.Core.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\es\DevExpress.RichEdit.v22.1.Core.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ja\DevExpress.RichEdit.v22.1.Core.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\de\DevExpress.XtraTreeList.v22.1.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\es\DevExpress.XtraTreeList.v22.1.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ja\DevExpress.XtraTreeList.v22.1.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\de\DevExpress.Office.v22.1.Core.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\es\DevExpress.Office.v22.1.Core.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ja\DevExpress.Office.v22.1.Core.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.frmMusteriler.resources
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\Ticari_Otamasyon.exe.config
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\Ticari_Otamasyon.exe
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\Ticari_Otamasyon.pdb
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Data.Desktop.v22.1.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Data.v22.1.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Drawing.v22.1.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Printing.v22.1.Core.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Utils.v22.1.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.XtraBars.v22.1.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.XtraEditors.v22.1.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.XtraGrid.v22.1.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.XtraLayout.v22.1.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.XtraPrinting.v22.1.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Pdf.v22.1.Core.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Pdf.v22.1.Drawing.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Sparkline.v22.1.Core.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.RichEdit.v22.1.Core.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.XtraTreeList.v22.1.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Office.v22.1.Core.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Data.Desktop.v22.1.xml
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Data.v22.1.xml
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Printing.v22.1.Core.xml
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Utils.v22.1.xml
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.XtraBars.v22.1.xml
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.XtraEditors.v22.1.xml
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.XtraGrid.v22.1.xml
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.XtraLayout.v22.1.xml
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.XtraPrinting.v22.1.xml
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Pdf.v22.1.Core.xml
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Pdf.v22.1.Drawing.xml
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Sparkline.v22.1.Core.xml
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.RichEdit.v22.1.Core.xml
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.XtraTreeList.v22.1.xml
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Office.v22.1.Core.xml
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\de\DevExpress.Data.v22.1.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\es\DevExpress.Data.v22.1.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ja\DevExpress.Data.v22.1.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\de\DevExpress.Printing.v22.1.Core.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\es\DevExpress.Printing.v22.1.Core.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ja\DevExpress.Printing.v22.1.Core.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\de\DevExpress.Utils.v22.1.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\es\DevExpress.Utils.v22.1.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ja\DevExpress.Utils.v22.1.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\de\DevExpress.XtraBars.v22.1.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\es\DevExpress.XtraBars.v22.1.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ja\DevExpress.XtraBars.v22.1.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\de\DevExpress.XtraEditors.v22.1.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\es\DevExpress.XtraEditors.v22.1.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ja\DevExpress.XtraEditors.v22.1.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\de\DevExpress.XtraGrid.v22.1.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\es\DevExpress.XtraGrid.v22.1.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ja\DevExpress.XtraGrid.v22.1.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\de\DevExpress.XtraLayout.v22.1.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\es\DevExpress.XtraLayout.v22.1.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ja\DevExpress.XtraLayout.v22.1.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\de\DevExpress.XtraPrinting.v22.1.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\es\DevExpress.XtraPrinting.v22.1.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ja\DevExpress.XtraPrinting.v22.1.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\de\DevExpress.Pdf.v22.1.Core.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\es\DevExpress.Pdf.v22.1.Core.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ja\DevExpress.Pdf.v22.1.Core.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\de\DevExpress.Sparkline.v22.1.Core.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\es\DevExpress.Sparkline.v22.1.Core.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ja\DevExpress.Sparkline.v22.1.Core.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\de\DevExpress.RichEdit.v22.1.Core.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\es\DevExpress.RichEdit.v22.1.Core.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ja\DevExpress.RichEdit.v22.1.Core.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\de\DevExpress.XtraTreeList.v22.1.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\es\DevExpress.XtraTreeList.v22.1.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ja\DevExpress.XtraTreeList.v22.1.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\de\DevExpress.Office.v22.1.Core.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\es\DevExpress.Office.v22.1.Core.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ja\DevExpress.Office.v22.1.Core.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.csproj.AssemblyReference.cache
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.Form1.resources
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.frmMusteriler.resources
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.FrmUrunler.resources
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.Properties.Resources.resources
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.csproj.GenerateResource.cache
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.exe.licenses
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.csproj.CopyComplete
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.exe
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.pdb
