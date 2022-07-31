@@ -97,7 +97,6 @@ namespace Ticari_Otamasyon
 
         private void gridView1_FocusedRowChanged(object sender, DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventArgs e)
         {
-
             DataRow dr = gridView1.GetDataRow(gridView1.FocusedRowHandle);
             txtId.Text = dr["ID"].ToString();
             txtAd.Text = dr["AD"].ToString();

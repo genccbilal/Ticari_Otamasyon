@@ -44,7 +44,7 @@ namespace Ticari_Otamasyon
         {
             Listele();
             Temizle();
-                    
+                     
         }
 
         private void btnKaydet_Click(object sender, EventArgs e)
@@ -75,7 +75,7 @@ namespace Ticari_Otamasyon
             bgl.baglanti().Close();
             MessageBox.Show("Ürün silindi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             Listele();
-            
+            Temizle();
         }
 
         private void gridView1_FocusedRowChanged(object sender, DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventArgs e)
