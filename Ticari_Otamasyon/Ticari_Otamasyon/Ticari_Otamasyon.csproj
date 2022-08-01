@@ -68,6 +68,12 @@
     <Compile Include="frmFırmalar.Designer.cs">
       <DependentUpon>frmFırmalar.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmMail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMail.Designer.cs">
+      <DependentUpon>FrmMail.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMusteriler.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -79,6 +85,12 @@
     </Compile>
     <Compile Include="FrmPersonel.Designer.cs">
       <DependentUpon>FrmPersonel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRehber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRehber.Designer.cs">
+      <DependentUpon>frmRehber.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmUrunler.cs">
       <SubType>Form</SubType>
@@ -95,11 +107,17 @@
     <EmbeddedResource Include="frmFırmalar.resx">
       <DependentUpon>frmFırmalar.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmMail.resx">
+      <DependentUpon>FrmMail.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMusteriler.resx">
       <DependentUpon>frmMusteriler.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPersonel.resx">
       <DependentUpon>FrmPersonel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRehber.resx">
+      <DependentUpon>frmRehber.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmUrunler.resx">
       <DependentUpon>FrmUrunler.cs</DependentUpon>
