@@ -115,8 +115,8 @@ namespace Ticari_Otamasyon
         {
             try // Çalışan Kod Satırı Buraya Yazın
             {
-                DialogResult seçim = MessageBox.Show("Silmek İstediğinize Emin misiniz ?", "Uyarı", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
-                if (seçim == DialogResult.Yes)
+                DialogResult secim = MessageBox.Show("Silmek İstediğinize Emin misiniz ?", "Uyarı", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+                if (secim == DialogResult.Yes)
                 {
                     SqlCommand sil = new SqlCommand("DELETE FROM TBL_MUSTERILER WHERE ID=@s1", bgl.baglanti());
                     sil.Parameters.AddWithValue("@s1", txtId.Text);
