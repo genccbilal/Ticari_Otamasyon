@@ -56,6 +56,9 @@ namespace Ticari_Otamasyon
             }
             else
             {
+                                
+            }
+            {
                 SqlCommand komut = new SqlCommand("INSERT INTO TBL_GIDERLER (AY,YIL,ELEKTIRIK,SU,DOGALGAZ,INTERNET,MAASLAR,EKSTRA,NOTLAR) VALUES (@k1,@k2,@k3,@k4,@k5,@k6,@k7,@k8,@k9)", bgl.baglanti());
                 komut.Parameters.AddWithValue("@k1", cmbAy.Text);
                 komut.Parameters.AddWithValue("@k2", cmbYil.Text);

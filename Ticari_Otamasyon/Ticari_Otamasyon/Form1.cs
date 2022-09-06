@@ -88,5 +88,16 @@ namespace Ticari_Otamasyon
                 frm6.Show();
             }
         }
+
+        frmBankalar frm7;
+        private void btnBankalar_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            if (frm7==null || frm7.IsDisposed)
+            {
+                frm7 = new frmBankalar();
+                frm7.MdiParent = this;
+                frm7.Show();
+            }
+        }
     }
 }
