@@ -68,6 +68,24 @@
     <Compile Include="frmBankalar.Designer.cs">
       <DependentUpon>frmBankalar.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmFaturalar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFaturalar.Designer.cs">
+      <DependentUpon>FrmFaturalar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFaturaUrunDuzenleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFaturaUrunDuzenleme.Designer.cs">
+      <DependentUpon>frmFaturaUrunDuzenleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFaturaUrunler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFaturaUrunler.Designer.cs">
+      <DependentUpon>frmFaturaUrunler.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmFırmalar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -118,6 +136,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmBankalar.resx">
       <DependentUpon>frmBankalar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFaturalar.resx">
+      <DependentUpon>FrmFaturalar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFaturaUrunDuzenleme.resx">
+      <DependentUpon>frmFaturaUrunDuzenleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFaturaUrunler.resx">
+      <DependentUpon>frmFaturaUrunler.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmFırmalar.resx">
       <DependentUpon>frmFırmalar.cs</DependentUpon>

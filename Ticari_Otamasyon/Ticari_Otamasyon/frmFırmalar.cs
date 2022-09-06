@@ -83,7 +83,6 @@ namespace Ticari_Otamasyon
             FirmaListele();
             Temizle();
             IlListesi();
-
             KodAciklama();
 
         }
