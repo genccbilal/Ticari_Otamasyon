@@ -659,7 +659,7 @@ namespace Ticari_Otamasyon
             // 
             this.xtraTabPage5.Controls.Add(this.rchKod2);
             this.xtraTabPage5.Name = "xtraTabPage5";
-            this.xtraTabPage5.Size = new System.Drawing.Size(401, 255);
+            this.xtraTabPage5.Size = new System.Drawing.Size(363, 255);
             this.xtraTabPage5.Text = "Özel Kod 2";
             // 
             // rchKod2
@@ -667,7 +667,7 @@ namespace Ticari_Otamasyon
             this.rchKod2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.rchKod2.Location = new System.Drawing.Point(0, 0);
             this.rchKod2.Name = "rchKod2";
-            this.rchKod2.Size = new System.Drawing.Size(401, 255);
+            this.rchKod2.Size = new System.Drawing.Size(363, 255);
             this.rchKod2.TabIndex = 4;
             this.rchKod2.Text = "";
             // 
@@ -675,7 +675,7 @@ namespace Ticari_Otamasyon
             // 
             this.xtraTabPage6.Controls.Add(this.rchKod3);
             this.xtraTabPage6.Name = "xtraTabPage6";
-            this.xtraTabPage6.Size = new System.Drawing.Size(401, 255);
+            this.xtraTabPage6.Size = new System.Drawing.Size(363, 255);
             this.xtraTabPage6.Text = "Özel Kod 3";
             // 
             // rchKod3
@@ -683,7 +683,7 @@ namespace Ticari_Otamasyon
             this.rchKod3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.rchKod3.Location = new System.Drawing.Point(0, 0);
             this.rchKod3.Name = "rchKod3";
-            this.rchKod3.Size = new System.Drawing.Size(401, 255);
+            this.rchKod3.Size = new System.Drawing.Size(363, 255);
             this.rchKod3.TabIndex = 3;
             this.rchKod3.Text = "";
             // 

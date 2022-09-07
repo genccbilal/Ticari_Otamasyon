@@ -110,6 +110,18 @@
     <Compile Include="frmMusteriler.Designer.cs">
       <DependentUpon>frmMusteriler.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmNotDetay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNotDetay.Designer.cs">
+      <DependentUpon>frmNotDetay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNotlar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNotlar.Designer.cs">
+      <DependentUpon>frmNotlar.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmPersonel.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -157,6 +169,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmMusteriler.resx">
       <DependentUpon>frmMusteriler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNotDetay.resx">
+      <DependentUpon>frmNotDetay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNotlar.resx">
+      <DependentUpon>frmNotlar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPersonel.resx">
       <DependentUpon>FrmPersonel.cs</DependentUpon>

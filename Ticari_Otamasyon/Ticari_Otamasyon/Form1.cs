@@ -109,5 +109,20 @@ namespace Ticari_Otamasyon
                 frm8.Show();
             }
         }
+
+        private void btnNotlar_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+           frmNotlar frmnotlar = (frmNotlar)Application.OpenForms["frmNotlar"];
+
+            if (frmnotlar != null)
+            {
+                frmnotlar.Focus();
+                return;
+            }
+
+            frmnotlar = new frmNotlar();
+            frmnotlar.MdiParent = this;
+            frmnotlar.Show();
+        }
     }
 }
