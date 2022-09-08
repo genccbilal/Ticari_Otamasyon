@@ -90,7 +90,9 @@ namespace Ticari_Otamasyon
             komut.Parameters.AddWithValue("@k11", lookUpEdit1.EditValue);
             komut.ExecuteNonQuery();
             bgl.baglanti().Close();
+            BankaListesi();
             MessageBox.Show("Banka Bilgisi Sisteme Eklendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            
         }
 
         private void btnSil_Click(object sender, EventArgs e)

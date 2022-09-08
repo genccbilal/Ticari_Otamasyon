@@ -33,6 +33,7 @@ namespace Ticari_Otamasyon
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
+            this.btnTemizle = new DevExpress.XtraEditors.SimpleButton();
             this.BtnGuncelle = new DevExpress.XtraEditors.SimpleButton();
             this.btnSil = new DevExpress.XtraEditors.SimpleButton();
             this.mskYil = new System.Windows.Forms.MaskedTextBox();
@@ -69,7 +70,7 @@ namespace Ticari_Otamasyon
             // 
             // gridControl1
             // 
-            this.gridControl1.Location = new System.Drawing.Point(0, 0);
+            this.gridControl1.Location = new System.Drawing.Point(3, 1);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
             this.gridControl1.Size = new System.Drawing.Size(1166, 591);
@@ -86,6 +87,7 @@ namespace Ticari_Otamasyon
             // 
             // groupControl1
             // 
+            this.groupControl1.Controls.Add(this.btnTemizle);
             this.groupControl1.Controls.Add(this.BtnGuncelle);
             this.groupControl1.Controls.Add(this.btnSil);
             this.groupControl1.Controls.Add(this.mskYil);
@@ -113,14 +115,27 @@ namespace Ticari_Otamasyon
             this.groupControl1.TabIndex = 1;
             this.groupControl1.Text = "İşlemler";
             // 
+            // btnTemizle
+            // 
+            this.btnTemizle.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnTemizle.Appearance.Options.UseFont = true;
+            this.btnTemizle.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnTemizle.ImageOptions.Image")));
+            this.btnTemizle.Location = new System.Drawing.Point(183, 496);
+            this.btnTemizle.Margin = new System.Windows.Forms.Padding(4);
+            this.btnTemizle.Name = "btnTemizle";
+            this.btnTemizle.Size = new System.Drawing.Size(149, 43);
+            this.btnTemizle.TabIndex = 34;
+            this.btnTemizle.Text = "Temizle";
+            this.btnTemizle.Click += new System.EventHandler(this.btnTemizle_Click);
+            // 
             // BtnGuncelle
             // 
             this.BtnGuncelle.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnGuncelle.Appearance.Options.UseFont = true;
             this.BtnGuncelle.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("BtnGuncelle.ImageOptions.Image")));
-            this.BtnGuncelle.Location = new System.Drawing.Point(101, 520);
+            this.BtnGuncelle.Location = new System.Drawing.Point(28, 496);
             this.BtnGuncelle.Name = "BtnGuncelle";
-            this.BtnGuncelle.Size = new System.Drawing.Size(219, 43);
+            this.BtnGuncelle.Size = new System.Drawing.Size(149, 43);
             this.BtnGuncelle.TabIndex = 20;
             this.BtnGuncelle.Text = "Güncelle";
             this.BtnGuncelle.Click += new System.EventHandler(this.BtnGuncelle_Click);
@@ -130,9 +145,9 @@ namespace Ticari_Otamasyon
             this.btnSil.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnSil.Appearance.Options.UseFont = true;
             this.btnSil.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnSil.ImageOptions.Image")));
-            this.btnSil.Location = new System.Drawing.Point(101, 471);
+            this.btnSil.Location = new System.Drawing.Point(183, 446);
             this.btnSil.Name = "btnSil";
-            this.btnSil.Size = new System.Drawing.Size(219, 43);
+            this.btnSil.Size = new System.Drawing.Size(149, 43);
             this.btnSil.TabIndex = 19;
             this.btnSil.Text = "Sil";
             this.btnSil.Click += new System.EventHandler(this.btnSil_Click);
@@ -152,9 +167,9 @@ namespace Ticari_Otamasyon
             this.btnKaydet.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnKaydet.Appearance.Options.UseFont = true;
             this.btnKaydet.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnKaydet.ImageOptions.Image")));
-            this.btnKaydet.Location = new System.Drawing.Point(101, 422);
+            this.btnKaydet.Location = new System.Drawing.Point(28, 446);
             this.btnKaydet.Name = "btnKaydet";
-            this.btnKaydet.Size = new System.Drawing.Size(219, 43);
+            this.btnKaydet.Size = new System.Drawing.Size(149, 43);
             this.btnKaydet.TabIndex = 17;
             this.btnKaydet.Text = "Kaydet";
             this.btnKaydet.Click += new System.EventHandler(this.btnKaydet_Click);
@@ -375,5 +390,6 @@ namespace Ticari_Otamasyon
         private System.Windows.Forms.MaskedTextBox mskYil;
         private DevExpress.XtraEditors.SimpleButton BtnGuncelle;
         private DevExpress.XtraEditors.SimpleButton btnSil;
+        private DevExpress.XtraEditors.SimpleButton btnTemizle;
     }
 }

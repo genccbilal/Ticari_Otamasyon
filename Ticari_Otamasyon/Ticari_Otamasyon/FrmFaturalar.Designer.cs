@@ -291,7 +291,7 @@ namespace Ticari_Otamasyon
             this.groupControl5.Margin = new System.Windows.Forms.Padding(4);
             this.groupControl5.Name = "groupControl5";
             this.groupControl5.ShowCaption = false;
-            this.groupControl5.Size = new System.Drawing.Size(331, 529);
+            this.groupControl5.Size = new System.Drawing.Size(331, 400);
             this.groupControl5.TabIndex = 1;
             this.groupControl5.Text = "groupControl5";
             // 

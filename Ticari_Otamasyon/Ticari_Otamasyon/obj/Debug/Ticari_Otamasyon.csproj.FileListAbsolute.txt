@@ -177,3 +177,4 @@ C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Tic
 C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.frmFaturaUrunDuzenleme.resources
 C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.frmNotlar.resources
 C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.frmNotDetay.resources
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.frmHareketler.resources

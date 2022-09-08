@@ -124,5 +124,20 @@ namespace Ticari_Otamasyon
             frmnotlar.MdiParent = this;
             frmnotlar.Show();
         }
+
+        private void barButtonItem2_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frmHareketler frmHareket = (frmHareketler)Application.OpenForms["frmHareket"];
+
+            if (frmHareket!=null)
+            {
+                frmHareket.Focus();
+                return;
+            }
+
+            frmHareket = new frmHareketler();
+            frmHareket.MdiParent = this;
+            frmHareket.Show();
+        }
     }
 }

@@ -131,6 +131,8 @@ namespace Ticari_Otamasyon
 
         private void gridView1_DoubleClick(object sender, EventArgs e)
         {
+            //mesajı ayrı ekranda görüntüleme ve durumu okundu yapma 
+
             frmNotDetay frm = new frmNotDetay();
             DataRow dr = gridView1.GetDataRow(gridView1.FocusedRowHandle);
 
@@ -145,8 +147,6 @@ namespace Ticari_Otamasyon
                 bgl.baglanti().Close();
             }
             frm.Show();
-            
-           
         }
 
         private void frmNotlar_MouseHover(object sender, EventArgs e)
@@ -154,6 +154,5 @@ namespace Ticari_Otamasyon
             NotListele();
             Temizle();
         }
-
     }
 }

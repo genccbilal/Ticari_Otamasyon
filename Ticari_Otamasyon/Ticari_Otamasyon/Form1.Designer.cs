@@ -49,6 +49,8 @@ namespace Ticari_Otamasyon
             this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.xtraTabbedMdiManager1 = new DevExpress.XtraTabbedMdi.XtraTabbedMdiManager(this.components);
+            this.btnHareketler = new DevExpress.XtraBars.BarButtonItem();
+            this.btnRaporlar = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabbedMdiManager1)).BeginInit();
             this.SuspendLayout();
@@ -72,9 +74,11 @@ namespace Ticari_Otamasyon
             this.btnBankalar,
             this.btnRehber,
             this.btnFaturalar,
-            this.btnAyarlar});
+            this.btnAyarlar,
+            this.btnHareketler,
+            this.btnRaporlar});
             this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
-            this.ribbonControl1.MaxItemId = 16;
+            this.ribbonControl1.MaxItemId = 18;
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.ribbonPage1});
@@ -252,12 +256,35 @@ namespace Ticari_Otamasyon
             this.ribbonPageGroup1.ItemLinks.Add(this.btnBankalar);
             this.ribbonPageGroup1.ItemLinks.Add(this.btnRehber);
             this.ribbonPageGroup1.ItemLinks.Add(this.btnFaturalar);
+            this.ribbonPageGroup1.ItemLinks.Add(this.btnHareketler);
+            this.ribbonPageGroup1.ItemLinks.Add(this.btnRaporlar);
             this.ribbonPageGroup1.ItemLinks.Add(this.btnAyarlar);
             this.ribbonPageGroup1.Name = "ribbonPageGroup1";
             // 
             // xtraTabbedMdiManager1
             // 
             this.xtraTabbedMdiManager1.MdiParent = this;
+            // 
+            // btnHareketler
+            // 
+            this.btnHareketler.Caption = "HAREKETLER";
+            this.btnHareketler.Id = 16;
+            this.btnHareketler.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem2.ImageOptions.Image")));
+            this.btnHareketler.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem2.ImageOptions.LargeImage")));
+            this.btnHareketler.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 10.2F);
+            this.btnHareketler.ItemAppearance.Normal.Options.UseFont = true;
+            this.btnHareketler.Name = "btnHareketler";
+            this.btnHareketler.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem2_ItemClick);
+            // 
+            // btnRaporlar
+            // 
+            this.btnRaporlar.Caption = "RAPORLAR";
+            this.btnRaporlar.Id = 17;
+            this.btnRaporlar.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem3.ImageOptions.Image")));
+            this.btnRaporlar.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem3.ImageOptions.LargeImage")));
+            this.btnRaporlar.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnRaporlar.ItemAppearance.Normal.Options.UseFont = true;
+            this.btnRaporlar.Name = "btnRaporlar";
             // 
             // Form1
             // 
@@ -299,6 +326,8 @@ namespace Ticari_Otamasyon
         private DevExpress.XtraBars.BarButtonItem btnFaturalar;
         private DevExpress.XtraBars.BarButtonItem btnAyarlar;
         private DevExpress.XtraTabbedMdi.XtraTabbedMdiManager xtraTabbedMdiManager1;
+        private DevExpress.XtraBars.BarButtonItem btnHareketler;
+        private DevExpress.XtraBars.BarButtonItem btnRaporlar;
     }
 }
 
