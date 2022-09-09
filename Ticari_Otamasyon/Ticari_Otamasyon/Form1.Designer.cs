@@ -115,6 +115,7 @@ namespace Ticari_Otamasyon
             this.btnStoklar.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnStoklar.ItemAppearance.Normal.Options.UseFont = true;
             this.btnStoklar.Name = "btnStoklar";
+            this.btnStoklar.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnStoklar_ItemClick);
             // 
             // btnMusteri
             // 

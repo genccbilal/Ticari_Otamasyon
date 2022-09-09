@@ -112,24 +112,24 @@ namespace Ticari_Otamasyon
 
         private void btnNotlar_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-           frmNotlar frmnotlar = (frmNotlar)Application.OpenForms["frmNotlar"];
+           frmNotlar frmNot = (frmNotlar)Application.OpenForms["frmNotlar"];
 
-            if (frmnotlar != null)
+            if (frmNot != null)
             {
-                frmnotlar.Focus();
+                frmNot.Focus();
                 return;
             }
 
-            frmnotlar = new frmNotlar();
-            frmnotlar.MdiParent = this;
-            frmnotlar.Show();
+            frmNot = new frmNotlar();
+            frmNot.MdiParent = this;
+            frmNot.Show();
         }
 
         private void barButtonItem2_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            frmHareketler frmHareket = (frmHareketler)Application.OpenForms["frmHareket"];
+            frmHareketler frmHareket = (frmHareketler)Application.OpenForms["frmHareketler"];
 
-            if (frmHareket!=null)
+            if (frmHareket !=null)
             {
                 frmHareket.Focus();
                 return;
@@ -149,6 +149,21 @@ namespace Ticari_Otamasyon
                 frm10.MdiParent = this;
                 frm10.Show();
             }
+        }
+
+        private void btnStoklar_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frmStoklar frmStok = (frmStoklar)Application.OpenForms["frmStoklar"];
+
+            if (frmStok!=null)
+            {
+                frmStok.Focus();
+                return;
+            }
+
+            frmStok = new frmStoklar();
+            frmStok.MdiParent = this;
+            frmStok.Show();
         }
     }
 }
