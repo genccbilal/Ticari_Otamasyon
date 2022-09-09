@@ -139,5 +139,16 @@ namespace Ticari_Otamasyon
             frmHareket.MdiParent = this;
             frmHareket.Show();
         }
+
+        frmRaporlar frm10;
+        private void btnRaporlar_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            if (frm10 == null || frm10.IsDisposed)
+            {
+                frm10 = new frmRaporlar();
+                frm10.MdiParent = this;
+                frm10.Show();
+            }
+        }
     }
 }

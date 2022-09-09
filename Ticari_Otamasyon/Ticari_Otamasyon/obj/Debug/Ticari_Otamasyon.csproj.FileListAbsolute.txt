@@ -179,3 +179,222 @@ C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Tic
 C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.frmNotDetay.resources
 C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.frmHareketler.resources
 C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.frmAdmin.resources
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\EnvDTE.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\stdole.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\Microsoft.MSXML.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.frmRaporlar.resources
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\Ticari_Otamasyon.exe.config
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\Ticari_Otamasyon.exe
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\Ticari_Otamasyon.pdb
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Data.Desktop.v22.1.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Data.v22.1.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Drawing.v22.1.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Printing.v22.1.Core.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Utils.v22.1.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.XtraBars.v22.1.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.XtraEditors.v22.1.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.XtraGrid.v22.1.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.XtraLayout.v22.1.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.XtraPrinting.v22.1.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Pdf.v22.1.Core.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Pdf.v22.1.Drawing.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Sparkline.v22.1.Core.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.RichEdit.v22.1.Core.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.XtraTreeList.v22.1.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\EnvDTE.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Office.v22.1.Core.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\stdole.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\Microsoft.MSXML.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Data.Desktop.v22.1.xml
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Data.v22.1.xml
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Printing.v22.1.Core.xml
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Utils.v22.1.xml
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.XtraBars.v22.1.xml
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.XtraEditors.v22.1.xml
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.XtraGrid.v22.1.xml
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.XtraLayout.v22.1.xml
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.XtraPrinting.v22.1.xml
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Pdf.v22.1.Core.xml
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Pdf.v22.1.Drawing.xml
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Sparkline.v22.1.Core.xml
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.RichEdit.v22.1.Core.xml
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.XtraTreeList.v22.1.xml
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Office.v22.1.Core.xml
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\de\DevExpress.Data.v22.1.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\es\DevExpress.Data.v22.1.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ja\DevExpress.Data.v22.1.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\de\DevExpress.Printing.v22.1.Core.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\es\DevExpress.Printing.v22.1.Core.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ja\DevExpress.Printing.v22.1.Core.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\de\DevExpress.Utils.v22.1.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\es\DevExpress.Utils.v22.1.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ja\DevExpress.Utils.v22.1.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\de\DevExpress.XtraBars.v22.1.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\es\DevExpress.XtraBars.v22.1.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ja\DevExpress.XtraBars.v22.1.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\de\DevExpress.XtraEditors.v22.1.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\es\DevExpress.XtraEditors.v22.1.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ja\DevExpress.XtraEditors.v22.1.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\de\DevExpress.XtraGrid.v22.1.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\es\DevExpress.XtraGrid.v22.1.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ja\DevExpress.XtraGrid.v22.1.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\de\DevExpress.XtraLayout.v22.1.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\es\DevExpress.XtraLayout.v22.1.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ja\DevExpress.XtraLayout.v22.1.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\de\DevExpress.XtraPrinting.v22.1.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\es\DevExpress.XtraPrinting.v22.1.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ja\DevExpress.XtraPrinting.v22.1.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\de\DevExpress.Pdf.v22.1.Core.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\es\DevExpress.Pdf.v22.1.Core.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ja\DevExpress.Pdf.v22.1.Core.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\de\DevExpress.Sparkline.v22.1.Core.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\es\DevExpress.Sparkline.v22.1.Core.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ja\DevExpress.Sparkline.v22.1.Core.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\de\DevExpress.RichEdit.v22.1.Core.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\es\DevExpress.RichEdit.v22.1.Core.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ja\DevExpress.RichEdit.v22.1.Core.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\de\DevExpress.XtraTreeList.v22.1.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\es\DevExpress.XtraTreeList.v22.1.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ja\DevExpress.XtraTreeList.v22.1.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\de\DevExpress.Office.v22.1.Core.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\es\DevExpress.Office.v22.1.Core.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ja\DevExpress.Office.v22.1.Core.resources.dll
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.csproj.AssemblyReference.cache
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.Form1.resources
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.frmAdmin.resources
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.frmBankalar.resources
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.FrmFaturalar.resources
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.frmFaturaUrunDuzenleme.resources
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.frmFaturaUrunler.resources
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.frmFırmalar.resources
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.frmGiderler.resources
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.frmHareketler.resources
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.FrmMail.resources
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.frmMusteriler.resources
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.frmNotDetay.resources
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.frmNotlar.resources
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.FrmPersonel.resources
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.frmRaporlar.resources
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.frmRehber.resources
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.FrmUrunler.resources
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.Properties.Resources.resources
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.csproj.GenerateResource.cache
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.exe.licenses
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.csproj.CoreCompileInputs.cache
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.csproj.CopyComplete
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.exe
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.pdb
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\RdlCompile.cache
+C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\RdlCompile.compiled
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\RdlCompile.cache
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\RdlCompile.compiled

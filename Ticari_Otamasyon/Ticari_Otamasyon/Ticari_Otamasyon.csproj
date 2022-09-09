@@ -43,6 +43,24 @@
     <Reference Include="DevExpress.XtraGrid.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraLayout.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraPrinting.v22.1, Version=22.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1537.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1537.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1537.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1537.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1537.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -140,6 +158,12 @@
     <Compile Include="FrmPersonel.Designer.cs">
       <DependentUpon>FrmPersonel.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmRaporlar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRaporlar.Designer.cs">
+      <DependentUpon>frmRaporlar.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmRehber.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -155,6 +179,32 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="sqlBaglanti.cs" />
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <Compile Include="TicariOtomasyonDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TicariOtomasyonDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TicariOtomasyonDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TicariOtomasyonDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TicariOtomasyonDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TicariOtomasyonDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TicariOtomasyonDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TicariOtomasyonDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TicariOtomasyonDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TicariOtomasyonDataSet4.xsd</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -197,6 +247,9 @@
     <EmbeddedResource Include="FrmPersonel.resx">
       <DependentUpon>FrmPersonel.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmRaporlar.resx">
+      <DependentUpon>frmRaporlar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmRehber.resx">
       <DependentUpon>frmRehber.cs</DependentUpon>
     </EmbeddedResource>
@@ -213,6 +266,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Report1.rdlc" />
+    <EmbeddedResource Include="Report2.rdlc" />
+    <EmbeddedResource Include="Report3.rdlc" />
+    <EmbeddedResource Include="Report4.rdlc" />
+    <EmbeddedResource Include="Report5.rdlc" />
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -222,9 +281,79 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="TicariOtomasyonDataSet.xsc">
+      <DependentUpon>TicariOtomasyonDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="TicariOtomasyonDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TicariOtomasyonDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TicariOtomasyonDataSet.xss">
+      <DependentUpon>TicariOtomasyonDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="TicariOtomasyonDataSet1.xsc">
+      <DependentUpon>TicariOtomasyonDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="TicariOtomasyonDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TicariOtomasyonDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TicariOtomasyonDataSet1.xss">
+      <DependentUpon>TicariOtomasyonDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="TicariOtomasyonDataSet2.xsc">
+      <DependentUpon>TicariOtomasyonDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="TicariOtomasyonDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TicariOtomasyonDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TicariOtomasyonDataSet2.xss">
+      <DependentUpon>TicariOtomasyonDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="TicariOtomasyonDataSet3.xsc">
+      <DependentUpon>TicariOtomasyonDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="TicariOtomasyonDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TicariOtomasyonDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TicariOtomasyonDataSet3.xss">
+      <DependentUpon>TicariOtomasyonDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="TicariOtomasyonDataSet4.xsc">
+      <DependentUpon>TicariOtomasyonDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="TicariOtomasyonDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TicariOtomasyonDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="TicariOtomasyonDataSet4.xss">
+      <DependentUpon>TicariOtomasyonDataSet4.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
