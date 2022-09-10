@@ -19,6 +19,18 @@ namespace Ticari_Otamasyon
 
         private void btnAnaSayfa_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
+            frmAnasayfa frmA = (frmAnasayfa)Application.OpenForms["frmAnasayfa"];
+
+            if (frmA !=null)
+            {
+                frmA.Focus();
+                return;     
+            }
+
+            frmA = new frmAnasayfa();
+            frmA.MdiParent=this;
+            frmA.Show();
+
 
         }
         FrmUrunler frm;
@@ -192,6 +204,21 @@ namespace Ticari_Otamasyon
             frmK.MdiParent = this;
             frmK.Show();
 
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            frmAnasayfa frmA = (frmAnasayfa)Application.OpenForms["frmAnasayfa"];
+
+            if (frmA != null)
+            {
+                frmA.Focus();
+                return;
+            }
+
+            frmA = new frmAnasayfa();
+            frmA.MdiParent = this;
+            frmA.Show();
         }
     }
 }

@@ -89,7 +89,7 @@ namespace Ticari_Otamasyon
             // 
             this.btnGiriş.Appearance.Font = new System.Drawing.Font("Monotype Corsiva", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnGiriş.Appearance.Options.UseFont = true;
-            this.btnGiriş.Location = new System.Drawing.Point(158, 243);
+            this.btnGiriş.Location = new System.Drawing.Point(146, 243);
             this.btnGiriş.Name = "btnGiriş";
             this.btnGiriş.Size = new System.Drawing.Size(121, 44);
             this.btnGiriş.TabIndex = 9;
@@ -114,7 +114,7 @@ namespace Ticari_Otamasyon
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(691, 431);
+            this.ClientSize = new System.Drawing.Size(713, 431);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btnGiriş);
             this.Controls.Add(this.TxtSifre);
@@ -123,8 +123,11 @@ namespace Ticari_Otamasyon
             this.Controls.Add(this.label1);
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "frmAdmin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmAdmin";
             ((System.ComponentModel.ISupportInitialize)(this.TxtSifre.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TxtKullaniciAd.Properties)).EndInit();

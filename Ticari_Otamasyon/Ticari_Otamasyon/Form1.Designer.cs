@@ -276,13 +276,13 @@ namespace Ticari_Otamasyon
             this.ribbonPageGroup1.ItemLinks.Add(this.btnFırmalar);
             this.ribbonPageGroup1.ItemLinks.Add(this.btnPersonel);
             this.ribbonPageGroup1.ItemLinks.Add(this.btnGiderler);
-            this.ribbonPageGroup1.ItemLinks.Add(this.btnKasa);
             this.ribbonPageGroup1.ItemLinks.Add(this.btnNotlar);
-            this.ribbonPageGroup1.ItemLinks.Add(this.btnBankalar);
             this.ribbonPageGroup1.ItemLinks.Add(this.btnRehber);
             this.ribbonPageGroup1.ItemLinks.Add(this.btnFaturalar);
             this.ribbonPageGroup1.ItemLinks.Add(this.btnHareketler);
+            this.ribbonPageGroup1.ItemLinks.Add(this.btnBankalar);
             this.ribbonPageGroup1.ItemLinks.Add(this.btnRaporlar);
+            this.ribbonPageGroup1.ItemLinks.Add(this.btnKasa);
             this.ribbonPageGroup1.ItemLinks.Add(this.btnAyarlar);
             this.ribbonPageGroup1.Name = "ribbonPageGroup1";
             // 
@@ -301,8 +301,9 @@ namespace Ticari_Otamasyon
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "TİCARİ OTOMASYON";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabbedMdiManager1)).EndInit();
             this.ResumeLayout(false);

@@ -91,6 +91,12 @@
     <Compile Include="frmAdmin.Designer.cs">
       <DependentUpon>frmAdmin.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmAnasayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAnasayfa.Designer.cs">
+      <DependentUpon>frmAnasayfa.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmAyarlar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -187,6 +193,12 @@
     <Compile Include="frmRehber.Designer.cs">
       <DependentUpon>frmRehber.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmStokDetay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStokDetay.Designer.cs">
+      <DependentUpon>frmStokDetay.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmStoklar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -233,6 +245,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmAdmin.resx">
       <DependentUpon>frmAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAnasayfa.resx">
+      <DependentUpon>frmAnasayfa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmAyarlar.resx">
       <DependentUpon>frmAyarlar.cs</DependentUpon>
@@ -281,6 +296,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmRehber.resx">
       <DependentUpon>frmRehber.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStokDetay.resx">
+      <DependentUpon>frmStokDetay.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmStoklar.resx">
       <DependentUpon>frmStoklar.cs</DependentUpon>
