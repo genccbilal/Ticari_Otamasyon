@@ -31,6 +31,10 @@ namespace Ticari_Otamasyon
                 Form1 frm = new Form1();
                 frm.Show();
             }
+            else
+            {
+                MessageBox.Show("Kullanıcı adı ve şşifre hatalı ", "Uyarı ", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+            }
 
         }
     }

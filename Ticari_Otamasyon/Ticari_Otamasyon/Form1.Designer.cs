@@ -181,6 +181,7 @@ namespace Ticari_Otamasyon
             this.btnKasa.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnKasa.ItemAppearance.Normal.Options.UseFont = true;
             this.btnKasa.Name = "btnKasa";
+            this.btnKasa.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnKasa_ItemClick);
             // 
             // btnNotlar
             // 
