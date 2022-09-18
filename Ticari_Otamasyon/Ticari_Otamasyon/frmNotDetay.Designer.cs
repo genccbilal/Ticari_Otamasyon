@@ -56,7 +56,7 @@ namespace Ticari_Otamasyon
             this.MinimizeBox = false;
             this.Name = "frmNotDetay";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "frmNotDetay";
+            this.Text = "NOT DETAY";
             this.Load += new System.EventHandler(this.frmNotDetay_Load);
             this.ResumeLayout(false);
 

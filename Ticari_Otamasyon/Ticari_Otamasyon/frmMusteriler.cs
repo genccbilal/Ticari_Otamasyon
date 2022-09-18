@@ -162,5 +162,10 @@ namespace Ticari_Otamasyon
             Listele();
             Temizle();
         }
+
+        private void btnTemizle_Click(object sender, EventArgs e)
+        {
+            Temizle();
+        }
     }
 }

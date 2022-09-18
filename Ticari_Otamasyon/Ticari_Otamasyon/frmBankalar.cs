@@ -70,7 +70,7 @@ namespace Ticari_Otamasyon
         {
             BankaListesi();
             Temizle();
-           SehirListesi();
+            SehirListesi();
             FirmaListesi();
         }
 
@@ -92,7 +92,7 @@ namespace Ticari_Otamasyon
             bgl.baglanti().Close();
             BankaListesi();
             MessageBox.Show("Banka Bilgisi Sisteme Eklendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            
+
         }
 
         private void btnSil_Click(object sender, EventArgs e)
@@ -182,7 +182,5 @@ namespace Ticari_Otamasyon
             BankaListesi();
             Temizle();
         }
-
-        
     }
 }

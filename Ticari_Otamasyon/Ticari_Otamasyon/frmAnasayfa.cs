@@ -64,15 +64,23 @@ namespace Ticari_Otamasyon
         
         void Haberler()
         {
-            XmlTextReader xmlOku = new XmlTextReader("https://www.hurriyet.com.tr/rss/anasayfa");
-
-            while (xmlOku.Read())
+            try
             {
-                if (xmlOku.Name=="title")
+                XmlTextReader xmlOku = new XmlTextReader("https://www.hurriyet.com.tr/rss/anasayfa");
+
+                while (xmlOku.Read())
                 {
-                    listBox1.Items.Add(xmlOku.ReadString());
+                    if (xmlOku.Name == "title")
+                    {
+                        listBox1.Items.Add(xmlOku.ReadString());
+                    }
                 }
             }
+            catch 
+            {
+
+                webBrowser1.Stop();
+            }   
         }
 
         private void frmAnasayfa_Load(object sender, EventArgs e)

@@ -37,7 +37,7 @@ namespace Ticari_Otamasyon
         private void btnUrunler_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
 
-            if (frm==null || frm.IsDisposed)//frmUrunler sürekli açmasını engelleriz (frm.IsDisposed): ürünler formunu scrolla kapattıktan sonra tekrar açılması için kullanırız
+            if (frm==null || frm.IsDisposed)
             {
                 frm = new FrmUrunler();
                 frm.MdiParent = this;

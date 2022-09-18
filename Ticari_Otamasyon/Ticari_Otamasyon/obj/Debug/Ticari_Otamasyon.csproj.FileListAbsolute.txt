@@ -500,3 +500,9 @@ C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Tica
 C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.frmStoklar.resources
 C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.frmAnasayfa.resources
 C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.frmStokDetay.resources
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Dialogs.v22.1.Core.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.XtraDialogs.v22.1.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.XtraDialogs.v22.1.xml
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\de\DevExpress.Dialogs.v22.1.Core.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\es\DevExpress.Dialogs.v22.1.Core.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ja\DevExpress.Dialogs.v22.1.Core.resources.dll

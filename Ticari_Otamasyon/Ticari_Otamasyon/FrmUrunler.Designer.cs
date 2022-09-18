@@ -124,7 +124,7 @@ namespace Ticari_Otamasyon
             this.btnTemizle.Margin = new System.Windows.Forms.Padding(4);
             this.btnTemizle.Name = "btnTemizle";
             this.btnTemizle.Size = new System.Drawing.Size(149, 43);
-            this.btnTemizle.TabIndex = 34;
+            this.btnTemizle.TabIndex = 13;
             this.btnTemizle.Text = "Temizle";
             this.btnTemizle.Click += new System.EventHandler(this.btnTemizle_Click);
             // 
@@ -136,7 +136,7 @@ namespace Ticari_Otamasyon
             this.BtnGuncelle.Location = new System.Drawing.Point(28, 496);
             this.BtnGuncelle.Name = "BtnGuncelle";
             this.BtnGuncelle.Size = new System.Drawing.Size(149, 43);
-            this.BtnGuncelle.TabIndex = 20;
+            this.BtnGuncelle.TabIndex = 12;
             this.BtnGuncelle.Text = "Güncelle";
             this.BtnGuncelle.Click += new System.EventHandler(this.BtnGuncelle_Click);
             // 
@@ -148,7 +148,7 @@ namespace Ticari_Otamasyon
             this.btnSil.Location = new System.Drawing.Point(183, 446);
             this.btnSil.Name = "btnSil";
             this.btnSil.Size = new System.Drawing.Size(149, 43);
-            this.btnSil.TabIndex = 19;
+            this.btnSil.TabIndex = 11;
             this.btnSil.Text = "Sil";
             this.btnSil.Click += new System.EventHandler(this.btnSil_Click);
             // 
@@ -159,7 +159,7 @@ namespace Ticari_Otamasyon
             this.mskYil.Mask = "0000";
             this.mskYil.Name = "mskYil";
             this.mskYil.Size = new System.Drawing.Size(219, 28);
-            this.mskYil.TabIndex = 18;
+            this.mskYil.TabIndex = 5;
             this.mskYil.ValidatingType = typeof(int);
             // 
             // btnKaydet
@@ -170,7 +170,7 @@ namespace Ticari_Otamasyon
             this.btnKaydet.Location = new System.Drawing.Point(28, 446);
             this.btnKaydet.Name = "btnKaydet";
             this.btnKaydet.Size = new System.Drawing.Size(149, 43);
-            this.btnKaydet.TabIndex = 17;
+            this.btnKaydet.TabIndex = 10;
             this.btnKaydet.Text = "Kaydet";
             this.btnKaydet.Click += new System.EventHandler(this.btnKaydet_Click);
             // 
@@ -180,7 +180,7 @@ namespace Ticari_Otamasyon
             this.nudAdet.Location = new System.Drawing.Point(101, 218);
             this.nudAdet.Name = "nudAdet";
             this.nudAdet.Size = new System.Drawing.Size(219, 28);
-            this.nudAdet.TabIndex = 16;
+            this.nudAdet.TabIndex = 6;
             // 
             // rchtDetay
             // 
@@ -188,7 +188,7 @@ namespace Ticari_Otamasyon
             this.rchtDetay.Location = new System.Drawing.Point(101, 320);
             this.rchtDetay.Name = "rchtDetay";
             this.rchtDetay.Size = new System.Drawing.Size(219, 96);
-            this.rchtDetay.TabIndex = 15;
+            this.rchtDetay.TabIndex = 9;
             this.rchtDetay.Text = "";
             // 
             // labelControl9
@@ -208,7 +208,7 @@ namespace Ticari_Otamasyon
             this.txtSatisFiyat.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtSatisFiyat.Properties.Appearance.Options.UseFont = true;
             this.txtSatisFiyat.Size = new System.Drawing.Size(219, 28);
-            this.txtSatisFiyat.TabIndex = 13;
+            this.txtSatisFiyat.TabIndex = 8;
             // 
             // labelControl8
             // 
@@ -227,7 +227,7 @@ namespace Ticari_Otamasyon
             this.txtAlisFiyat.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtAlisFiyat.Properties.Appearance.Options.UseFont = true;
             this.txtAlisFiyat.Size = new System.Drawing.Size(219, 28);
-            this.txtAlisFiyat.TabIndex = 11;
+            this.txtAlisFiyat.TabIndex = 7;
             // 
             // labelControl7
             // 
@@ -266,7 +266,7 @@ namespace Ticari_Otamasyon
             this.txtModel.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtModel.Properties.Appearance.Options.UseFont = true;
             this.txtModel.Size = new System.Drawing.Size(219, 28);
-            this.txtModel.TabIndex = 7;
+            this.txtModel.TabIndex = 4;
             // 
             // labelControl4
             // 
@@ -285,7 +285,7 @@ namespace Ticari_Otamasyon
             this.txtMarka.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtMarka.Properties.Appearance.Options.UseFont = true;
             this.txtMarka.Size = new System.Drawing.Size(219, 28);
-            this.txtMarka.TabIndex = 5;
+            this.txtMarka.TabIndex = 3;
             // 
             // labelControl3
             // 
@@ -304,7 +304,7 @@ namespace Ticari_Otamasyon
             this.txtAd.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtAd.Properties.Appearance.Options.UseFont = true;
             this.txtAd.Size = new System.Drawing.Size(219, 28);
-            this.txtAd.TabIndex = 3;
+            this.txtAd.TabIndex = 2;
             // 
             // labelControl2
             // 

@@ -80,7 +80,7 @@
             this.btnTemizle.Margin = new System.Windows.Forms.Padding(4);
             this.btnTemizle.Name = "btnTemizle";
             this.btnTemizle.Size = new System.Drawing.Size(149, 43);
-            this.btnTemizle.TabIndex = 29;
+            this.btnTemizle.TabIndex = 14;
             this.btnTemizle.Text = "Temizle";
             this.btnTemizle.Click += new System.EventHandler(this.btnTemizle_Click);
             // 
@@ -92,7 +92,7 @@
             this.txtElektirik.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtElektirik.Properties.Appearance.Options.UseFont = true;
             this.txtElektirik.Size = new System.Drawing.Size(219, 28);
-            this.txtElektirik.TabIndex = 28;
+            this.txtElektirik.TabIndex = 4;
             // 
             // labelControl9
             // 
@@ -130,7 +130,7 @@
             "2022",
             "2023"});
             this.cmbYil.Size = new System.Drawing.Size(219, 28);
-            this.cmbYil.TabIndex = 27;
+            this.cmbYil.TabIndex = 3;
             // 
             // labelControl8
             // 
@@ -244,7 +244,7 @@
             "Kasım",
             "Aralık"});
             this.cmbAy.Size = new System.Drawing.Size(219, 28);
-            this.cmbAy.TabIndex = 26;
+            this.cmbAy.TabIndex = 2;
             // 
             // txtDogalgaz
             // 
@@ -254,7 +254,7 @@
             this.txtDogalgaz.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtDogalgaz.Properties.Appearance.Options.UseFont = true;
             this.txtDogalgaz.Size = new System.Drawing.Size(219, 28);
-            this.txtDogalgaz.TabIndex = 22;
+            this.txtDogalgaz.TabIndex = 6;
             // 
             // BtnGuncelle
             // 
@@ -265,7 +265,7 @@
             this.BtnGuncelle.Margin = new System.Windows.Forms.Padding(4);
             this.BtnGuncelle.Name = "BtnGuncelle";
             this.BtnGuncelle.Size = new System.Drawing.Size(149, 43);
-            this.BtnGuncelle.TabIndex = 20;
+            this.BtnGuncelle.TabIndex = 13;
             this.BtnGuncelle.Text = "Güncelle";
             this.BtnGuncelle.Click += new System.EventHandler(this.BtnGuncelle_Click);
             // 
@@ -278,7 +278,7 @@
             this.btnSil.Margin = new System.Windows.Forms.Padding(4);
             this.btnSil.Name = "btnSil";
             this.btnSil.Size = new System.Drawing.Size(149, 43);
-            this.btnSil.TabIndex = 19;
+            this.btnSil.TabIndex = 12;
             this.btnSil.Text = "Sil";
             this.btnSil.Click += new System.EventHandler(this.btnSil_Click);
             // 
@@ -291,7 +291,7 @@
             this.btnKaydet.Margin = new System.Windows.Forms.Padding(4);
             this.btnKaydet.Name = "btnKaydet";
             this.btnKaydet.Size = new System.Drawing.Size(149, 43);
-            this.btnKaydet.TabIndex = 17;
+            this.btnKaydet.TabIndex = 11;
             this.btnKaydet.Text = "Kaydet";
             this.btnKaydet.Click += new System.EventHandler(this.btnKaydet_Click);
             // 
@@ -302,7 +302,7 @@
             this.rchtNotlar.Margin = new System.Windows.Forms.Padding(4);
             this.rchtNotlar.Name = "rchtNotlar";
             this.rchtNotlar.Size = new System.Drawing.Size(220, 84);
-            this.rchtNotlar.TabIndex = 15;
+            this.rchtNotlar.TabIndex = 10;
             this.rchtNotlar.Text = "";
             // 
             // txtInternet
@@ -313,7 +313,7 @@
             this.txtInternet.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtInternet.Properties.Appearance.Options.UseFont = true;
             this.txtInternet.Size = new System.Drawing.Size(219, 28);
-            this.txtInternet.TabIndex = 3;
+            this.txtInternet.TabIndex = 7;
             // 
             // groupControl1
             // 
@@ -356,7 +356,7 @@
             this.txtEkstra.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtEkstra.Properties.Appearance.Options.UseFont = true;
             this.txtEkstra.Size = new System.Drawing.Size(219, 28);
-            this.txtEkstra.TabIndex = 31;
+            this.txtEkstra.TabIndex = 9;
             // 
             // txtMaaslar
             // 
@@ -366,7 +366,7 @@
             this.txtMaaslar.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtMaaslar.Properties.Appearance.Options.UseFont = true;
             this.txtMaaslar.Size = new System.Drawing.Size(219, 28);
-            this.txtMaaslar.TabIndex = 30;
+            this.txtMaaslar.TabIndex = 8;
             // 
             // txtSu
             // 
@@ -419,7 +419,7 @@
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmGiderler";
-            this.Text = "frmGiderler";
+            this.Text = "GİDERLER";
             this.Load += new System.EventHandler(this.frmGiderler_Load);
             ((System.ComponentModel.ISupportInitialize)(this.txtElektirik.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cmbYil.Properties)).EndInit();

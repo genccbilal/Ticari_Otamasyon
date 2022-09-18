@@ -66,7 +66,7 @@ namespace Ticari_Otamasyon
             this.MinimizeBox = false;
             this.Name = "frmFaturaUrunler";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FATURA URUN DETAY";
+            this.Text = "FATURA ÜRÜN DETAY";
             this.Activated += new System.EventHandler(this.frmFaturaUrunler_Activated);
             this.Load += new System.EventHandler(this.frmFaturaUrunler_Load);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();

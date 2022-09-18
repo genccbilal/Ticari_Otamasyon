@@ -215,5 +215,10 @@ namespace Ticari_Otamasyon
         {
             Temizle();
         }
+
+        private void groupControl5_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

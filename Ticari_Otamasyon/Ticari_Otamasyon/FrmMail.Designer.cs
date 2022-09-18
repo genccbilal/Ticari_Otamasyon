@@ -31,6 +31,7 @@ namespace Ticari_Otamasyon
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMail));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.txtMailAdres = new System.Windows.Forms.TextBox();
             this.txtKonu = new System.Windows.Forms.TextBox();
@@ -38,7 +39,6 @@ namespace Ticari_Otamasyon
             this.label3 = new System.Windows.Forms.Label();
             this.rchMesaj = new System.Windows.Forms.RichTextBox();
             this.btnGonder = new DevExpress.XtraEditors.SimpleButton();
-            this.label4 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,6 +51,18 @@ namespace Ticari_Otamasyon
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(466, 144);
             this.panel1.TabIndex = 0;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(84, 52);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(328, 36);
+            this.label4.TabIndex = 2;
+            this.label4.Text = "Mail Gönderme Paneli";
             // 
             // label1
             // 
@@ -105,7 +117,7 @@ namespace Ticari_Otamasyon
             // 
             this.btnGonder.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnGonder.Appearance.Options.UseFont = true;
-            this.btnGonder.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
+            this.btnGonder.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnGonder.ImageOptions.Image")));
             this.btnGonder.Location = new System.Drawing.Point(151, 426);
             this.btnGonder.Name = "btnGonder";
             this.btnGonder.Size = new System.Drawing.Size(216, 49);
@@ -113,22 +125,11 @@ namespace Ticari_Otamasyon
             this.btnGonder.Text = "Gönder";
             this.btnGonder.Click += new System.EventHandler(this.btnGonder_Click);
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(84, 52);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(328, 36);
-            this.label4.TabIndex = 2;
-            this.label4.Text = "Mail Gönderme Paneli";
-            // 
             // FrmMail
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(469, 498);
             this.Controls.Add(this.btnGonder);
             this.Controls.Add(this.rchMesaj);
@@ -139,10 +140,12 @@ namespace Ticari_Otamasyon
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FrmMail";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FrmMail";
+            this.Text = "MAİL";
             this.Load += new System.EventHandler(this.FrmMail_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

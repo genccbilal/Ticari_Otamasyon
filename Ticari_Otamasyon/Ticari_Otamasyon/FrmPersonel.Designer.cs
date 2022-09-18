@@ -98,7 +98,7 @@ namespace Ticari_Otamasyon
             this.txtMail.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtMail.Properties.Appearance.Options.UseFont = true;
             this.txtMail.Size = new System.Drawing.Size(219, 28);
-            this.txtMail.TabIndex = 28;
+            this.txtMail.TabIndex = 6;
             // 
             // cmbIlce
             // 
@@ -110,7 +110,7 @@ namespace Ticari_Otamasyon
             this.cmbIlce.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.cmbIlce.Size = new System.Drawing.Size(219, 28);
-            this.cmbIlce.TabIndex = 27;
+            this.cmbIlce.TabIndex = 8;
             // 
             // cmbIl
             // 
@@ -122,7 +122,7 @@ namespace Ticari_Otamasyon
             this.cmbIl.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.cmbIl.Size = new System.Drawing.Size(219, 28);
-            this.cmbIl.TabIndex = 26;
+            this.cmbIl.TabIndex = 7;
             this.cmbIl.SelectedIndexChanged += new System.EventHandler(this.cmbIl_SelectedIndexChanged);
             // 
             // mskTc
@@ -133,7 +133,7 @@ namespace Ticari_Otamasyon
             this.mskTc.Mask = "00000000000";
             this.mskTc.Name = "mskTc";
             this.mskTc.Size = new System.Drawing.Size(219, 28);
-            this.mskTc.TabIndex = 25;
+            this.mskTc.TabIndex = 5;
             // 
             // labelControl11
             // 
@@ -154,7 +154,7 @@ namespace Ticari_Otamasyon
             this.txtGörev.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtGörev.Properties.Appearance.Options.UseFont = true;
             this.txtGörev.Size = new System.Drawing.Size(219, 28);
-            this.txtGörev.TabIndex = 22;
+            this.txtGörev.TabIndex = 9;
             // 
             // labelControl10
             // 
@@ -176,7 +176,7 @@ namespace Ticari_Otamasyon
             this.BtnGuncelle.Margin = new System.Windows.Forms.Padding(4);
             this.BtnGuncelle.Name = "BtnGuncelle";
             this.BtnGuncelle.Size = new System.Drawing.Size(149, 43);
-            this.BtnGuncelle.TabIndex = 20;
+            this.BtnGuncelle.TabIndex = 13;
             this.BtnGuncelle.Text = "Güncelle";
             this.BtnGuncelle.Click += new System.EventHandler(this.BtnGuncelle_Click);
             // 
@@ -189,7 +189,7 @@ namespace Ticari_Otamasyon
             this.btnSil.Margin = new System.Windows.Forms.Padding(4);
             this.btnSil.Name = "btnSil";
             this.btnSil.Size = new System.Drawing.Size(149, 43);
-            this.btnSil.TabIndex = 19;
+            this.btnSil.TabIndex = 12;
             this.btnSil.Text = "Sil";
             this.btnSil.Click += new System.EventHandler(this.btnSil_Click);
             // 
@@ -201,7 +201,7 @@ namespace Ticari_Otamasyon
             this.mskTelefon1.Mask = "(999) 000-0000";
             this.mskTelefon1.Name = "mskTelefon1";
             this.mskTelefon1.Size = new System.Drawing.Size(219, 28);
-            this.mskTelefon1.TabIndex = 18;
+            this.mskTelefon1.TabIndex = 4;
             // 
             // btnKaydet
             // 
@@ -212,7 +212,7 @@ namespace Ticari_Otamasyon
             this.btnKaydet.Margin = new System.Windows.Forms.Padding(4);
             this.btnKaydet.Name = "btnKaydet";
             this.btnKaydet.Size = new System.Drawing.Size(149, 43);
-            this.btnKaydet.TabIndex = 17;
+            this.btnKaydet.TabIndex = 11;
             this.btnKaydet.Text = "Kaydet";
             this.btnKaydet.Click += new System.EventHandler(this.btnKaydet_Click);
             // 
@@ -223,7 +223,7 @@ namespace Ticari_Otamasyon
             this.rchtAdres.Margin = new System.Windows.Forms.Padding(4);
             this.rchtAdres.Name = "rchtAdres";
             this.rchtAdres.Size = new System.Drawing.Size(220, 84);
-            this.rchtAdres.TabIndex = 15;
+            this.rchtAdres.TabIndex = 10;
             this.rchtAdres.Text = "";
             // 
             // labelControl9
@@ -289,7 +289,7 @@ namespace Ticari_Otamasyon
             this.txtSoyad.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtSoyad.Properties.Appearance.Options.UseFont = true;
             this.txtSoyad.Size = new System.Drawing.Size(219, 28);
-            this.txtSoyad.TabIndex = 5;
+            this.txtSoyad.TabIndex = 3;
             // 
             // labelControl3
             // 
@@ -310,7 +310,7 @@ namespace Ticari_Otamasyon
             this.txtAd.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtAd.Properties.Appearance.Options.UseFont = true;
             this.txtAd.Size = new System.Drawing.Size(219, 28);
-            this.txtAd.TabIndex = 3;
+            this.txtAd.TabIndex = 2;
             // 
             // labelControl2
             // 
@@ -387,7 +387,7 @@ namespace Ticari_Otamasyon
             this.btnTemizle.Margin = new System.Windows.Forms.Padding(4);
             this.btnTemizle.Name = "btnTemizle";
             this.btnTemizle.Size = new System.Drawing.Size(149, 43);
-            this.btnTemizle.TabIndex = 29;
+            this.btnTemizle.TabIndex = 14;
             this.btnTemizle.Text = "Temizle";
             this.btnTemizle.Click += new System.EventHandler(this.btnTemizle_Click);
             // 
@@ -401,7 +401,7 @@ namespace Ticari_Otamasyon
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FrmPersonel";
-            this.Text = "Personel";
+            this.Text = "PERSONEL";
             this.Load += new System.EventHandler(this.FrmPersonel_Load);
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
