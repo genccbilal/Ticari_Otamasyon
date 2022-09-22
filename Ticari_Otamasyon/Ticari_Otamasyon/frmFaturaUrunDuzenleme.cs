@@ -29,10 +29,13 @@ namespace Ticari_Otamasyon
             SqlDataReader dr = komut.ExecuteReader();
             while (dr.Read())
             {
-                txtFiyat.Text = dr[3].ToString();
-                txtMiktar.Text = dr[2].ToString();
-                txtTutar.Text = dr[4].ToString();
                 txtUrunAd.Text = dr[1].ToString();
+                txtMarka.Text = dr[2].ToString();
+                txtMiktar.Text = dr[3].ToString();
+                txtFiyat.Text = dr[4].ToString();
+
+                txtTutar.Text = dr[5].ToString();
+
             }
             bgl.baglanti().Close();
         }
@@ -42,7 +45,7 @@ namespace Ticari_Otamasyon
             txtUrunID.Text = UrunID.ToString();
             Listele();
         }
-        
+
         private void BtnGuncelle_Click(object sender, EventArgs e)
         {
             double miktar, fiyat, tutar;
@@ -64,7 +67,7 @@ namespace Ticari_Otamasyon
 
         private void btnSil_Click(object sender, EventArgs e)
         {
-            SqlCommand Delete = new SqlCommand("DELETE FROM TBL_FATURADETAY WHERE FATURAURUNID=@d1",bgl.baglanti());
+            SqlCommand Delete = new SqlCommand("DELETE FROM TBL_FATURADETAY WHERE FATURAURUNID=@d1", bgl.baglanti());
             Delete.Parameters.AddWithValue("@d1", txtUrunID.Text);
             Delete.ExecuteNonQuery();
             bgl.baglanti().Close();

@@ -25,7 +25,7 @@ namespace Ticari_Otamasyon
         void AzlStok()
         {
             DataTable dt = new DataTable();
-            SqlDataAdapter da = new SqlDataAdapter("SELECT URUNAD,SUM(ADET)AS 'ADET' FROM TBL_URUNLER GROUP BY URUNAD HAVING SUM(ADET)<=20 ORDER BY ADET",bgl.baglanti());
+            SqlDataAdapter da = new SqlDataAdapter("SELECT URUNAD,SUM(ADET)AS 'ADET' FROM TBL_URUNLER GROUP BY URUNAD HAVING SUM(ADET)<=40 ORDER BY ADET", bgl.baglanti());
             da.Fill(dt);
             gridControlStoklar.DataSource = dt;
         }
@@ -33,7 +33,7 @@ namespace Ticari_Otamasyon
         void Ajanda()
         {
             DataTable dt = new DataTable();
-            SqlDataAdapter da = new SqlDataAdapter("SELECT TOP 10 TARIH,SAAT,BASLIK FROM TBL_NOTLAR WHERE DURUM='FALSE' ORDER BY NOTID DESC", bgl.baglanti());
+            SqlDataAdapter da = new SqlDataAdapter("SELECT TOP 12 TARIH,SAAT,BASLIK FROM TBL_NOTLAR WHERE DURUM='FALSE' ORDER BY TARIH ASC", bgl.baglanti());
             da.Fill(dt);
             gridControlAjanda.DataSource = dt;
         }
@@ -61,7 +61,7 @@ namespace Ticari_Otamasyon
             da.Fill(dt);
             gridControlFihrist.DataSource = dt;
         }
-        
+
         void Haberler()
         {
             try
@@ -76,20 +76,17 @@ namespace Ticari_Otamasyon
                     }
                 }
             }
-            catch 
+            catch
             {
-
                 webBrowser1.Stop();
-            }   
+            }
         }
 
         private void frmAnasayfa_Load(object sender, EventArgs e)
         {
             AzlStok();
             Ajanda();
-            FirmaSonOn();
             Fihrist();
-
             Haberler();
 
             webBrowser1.Navigate("https://www.tcmb.gov.tr/kurlar/today.xml ");
@@ -99,17 +96,17 @@ namespace Ticari_Otamasyon
         private void timer1_Tick(object sender, EventArgs e)
         {
             sayac++;
-            if (sayac >= 0 && sayac <= 20)
+            if (sayac >= 0 && sayac <= 10)
             {
                 groupControl3.Text = "FİRMA SON 10 HAREKETLERİ";
                 FirmaSonOn();
             }
-            if (sayac >= 20 && sayac <= 40)
-            {
+            if (sayac >= 10 && sayac <= 20)
+            {            
                 groupControl3.Text = "MUSTERİ SON 10 HAREKETLERİ";
                 MusteriSonOn();
             }
-            if (sayac >= 40)
+            if (sayac >= 20)
             {
                 sayac = 0;
             }

@@ -149,6 +149,7 @@ namespace Ticari_Otamasyon
                 SqlDataReader dr1 = komut1.ExecuteReader();
                 while (dr1.Read())
                 {
+
                     chartControl1.Series["Aylar"].Points.Add(new DevExpress.XtraCharts.SeriesPoint(dr1[0], dr1[1]));
                 }
                 bgl.baglanti().Close();

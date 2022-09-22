@@ -23,7 +23,7 @@ namespace Ticari_Otamasyon
         void GiderListesi()
         {
             DataTable dt = new DataTable();
-            SqlDataAdapter da = new SqlDataAdapter("SELECT * FROM TBL_GIDERLER", bgl.baglanti());
+            SqlDataAdapter da = new SqlDataAdapter("SELECT * FROM TBL_GIDERLER ORDER BY ID DESC", bgl.baglanti());
             da.Fill(dt);
             gridControl1.DataSource = dt;
         }
@@ -56,20 +56,17 @@ namespace Ticari_Otamasyon
             }
             else
             {
-                                
-            }
-            {
-                SqlCommand komut = new SqlCommand("INSERT INTO TBL_GIDERLER (AY,YIL,ELEKTIRIK,SU,DOGALGAZ,INTERNET,MAASLAR,EKSTRA,NOTLAR) VALUES (@k1,@k2,@k3,@k4,@k5,@k6,@k7,@k8,@k9)", bgl.baglanti());
-                komut.Parameters.AddWithValue("@k1", cmbAy.Text);
-                komut.Parameters.AddWithValue("@k2", cmbYil.Text);
-                komut.Parameters.AddWithValue("@k3", decimal.Parse(txtElektirik.Text));
-                komut.Parameters.AddWithValue("@k4", decimal.Parse(txtSu.Text));
-                komut.Parameters.AddWithValue("@k5", decimal.Parse(txtDogalgaz.Text));
-                komut.Parameters.AddWithValue("@k6", decimal.Parse(txtInternet.Text));
-                komut.Parameters.AddWithValue("@k7", decimal.Parse(txtMaaslar.Text));
-                komut.Parameters.AddWithValue("@k8", decimal.Parse(txtEkstra.Text));
-                komut.Parameters.AddWithValue("@k9", rchtNotlar.Text);
-                komut.ExecuteNonQuery(); 
+                SqlCommand save = new SqlCommand("INSERT INTO TBL_GIDERLER (AY,YIL,ELEKTIRIK,SU,DOGALGAZ,INTERNET,MAASLAR,EKSTRA,NOTLAR) VALUES (@k1,@k2,@k3,@k4,@k5,@k6,@k7,@k8,@k9)", bgl.baglanti());
+                save.Parameters.AddWithValue("@k1", cmbAy.Text);
+                save.Parameters.AddWithValue("@k2", cmbYil.Text);
+                save.Parameters.AddWithValue("@k3", decimal.Parse(txtElektirik.Text));
+                save.Parameters.AddWithValue("@k4", decimal.Parse(txtSu.Text));
+                save.Parameters.AddWithValue("@k5", decimal.Parse(txtDogalgaz.Text));
+                save.Parameters.AddWithValue("@k6", decimal.Parse(txtInternet.Text));
+                save.Parameters.AddWithValue("@k7", decimal.Parse(txtMaaslar.Text));
+                save.Parameters.AddWithValue("@k8", decimal.Parse(txtEkstra.Text));
+                save.Parameters.AddWithValue("@k9", rchtNotlar.Text);
+                save.ExecuteNonQuery(); 
                 bgl.baglanti().Close();
                 MessageBox.Show("Gider sisteme eklendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
@@ -84,9 +81,9 @@ namespace Ticari_Otamasyon
                 DialogResult secim = MessageBox.Show("Silmek istediğinize Eminmisiniz", "Uyarı", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
                 if (secim == DialogResult.Yes)
                 {
-                    SqlCommand sil = new SqlCommand("DELETE FROM TBL_GIDERLER WHERE ID=@s1", bgl.baglanti());
-                    sil.Parameters.AddWithValue("@s1", txtId.Text);
-                    sil.ExecuteNonQuery();
+                    SqlCommand delete = new SqlCommand("DELETE FROM TBL_GIDERLER WHERE ID=@s1", bgl.baglanti());
+                    delete.Parameters.AddWithValue("@s1", txtId.Text);
+                    delete.ExecuteNonQuery();
                     bgl.baglanti().Close();
                     MessageBox.Show("Gider silindi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Error);
 

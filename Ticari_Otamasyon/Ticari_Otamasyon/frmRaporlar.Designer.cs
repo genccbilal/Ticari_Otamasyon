@@ -194,6 +194,7 @@ namespace Ticari_Otamasyon
             // xtraTabPage3
             // 
             this.xtraTabPage3.Controls.Add(this.reportViewer3);
+            this.xtraTabPage3.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("xtraTabPage3.ImageOptions.Image")));
             this.xtraTabPage3.Name = "xtraTabPage3";
             this.xtraTabPage3.Size = new System.Drawing.Size(1534, 557);
             this.xtraTabPage3.Text = "Giderler";
@@ -215,6 +216,7 @@ namespace Ticari_Otamasyon
             // xtraTabPage4
             // 
             this.xtraTabPage4.Controls.Add(this.reportViewer4);
+            this.xtraTabPage4.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("xtraTabPage4.ImageOptions.Image")));
             this.xtraTabPage4.Name = "xtraTabPage4";
             this.xtraTabPage4.Size = new System.Drawing.Size(1534, 557);
             this.xtraTabPage4.Text = "Personel";
@@ -235,6 +237,7 @@ namespace Ticari_Otamasyon
             // xtraTabPage5
             // 
             this.xtraTabPage5.Controls.Add(this.reportViewer5);
+            this.xtraTabPage5.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("xtraTabPage5.ImageOptions.Image")));
             this.xtraTabPage5.Name = "xtraTabPage5";
             this.xtraTabPage5.Size = new System.Drawing.Size(1534, 557);
             this.xtraTabPage5.Text = "Ürünler";

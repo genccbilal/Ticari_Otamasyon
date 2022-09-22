@@ -84,8 +84,7 @@ namespace Ticari_Otamasyon
                 btnIslem.Text = "GUNCELLE";
                 btnSil.Visible = true;
                 this.gridView1.Columns["ID"].Visible = false;//GridView deki ilk sütun olan ıd gizliyoruz
-            }
-            
+            }          
         }
 
         private void textEdit1_EditValueChanged(object sender, EventArgs e)

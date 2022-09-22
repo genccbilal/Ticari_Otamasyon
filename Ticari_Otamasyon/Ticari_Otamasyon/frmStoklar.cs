@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using DevExpress.Charts;
 
 
 namespace Ticari_Otamasyon
@@ -24,7 +25,7 @@ namespace Ticari_Otamasyon
         private void frmStoklar_Load(object sender, EventArgs e)
         {
 
-            SqlDataAdapter da = new SqlDataAdapter("SELECT URUNAD,SUM(ADET) AS'MİKTAR' FROM TBL_URUNLER GROUP BY URUNAD", bgl.baglanti());
+            SqlDataAdapter da = new SqlDataAdapter("SELECT URUNAD,SUM(ADET) AS'MİKTAR' FROM TBL_URUNLER GROUP BY URUNAD ORDER BY MİKTAR ASC", bgl.baglanti());
             DataTable dt = new DataTable();
             da.Fill(dt);
             gridControl1.DataSource = dt;
@@ -34,8 +35,8 @@ namespace Ticari_Otamasyon
             SqlCommand komut = new SqlCommand("SELECT URUNAD,SUM(ADET) FROM TBL_URUNLER GROUP BY URUNAD", bgl.baglanti());
             SqlDataReader dr = komut.ExecuteReader();
             while (dr.Read())
-            {
-                chartControl1.Series["Series 1"].Points.AddPoint(Convert.ToString(dr[0]), int.Parse(dr[1].ToString()));
+            {                
+                chartControl1.Series["Series 1"].Points.Add(new DevExpress.XtraCharts.SeriesPoint(Convert.ToString(dr[0]), int.Parse(dr[1].ToString())));
             }
             bgl.baglanti().Close();
 
@@ -44,7 +45,7 @@ namespace Ticari_Otamasyon
             SqlDataReader dr2 = komut2.ExecuteReader();
             while (dr2.Read())
             {
-                chartControl2.Series["Series 1"].Points.AddPoint(Convert.ToString(dr2[0]), int.Parse(dr2[1].ToString()));
+                chartControl2.Series["Series 1"].Points.Add(new DevExpress.XtraCharts.SeriesPoint( Convert.ToString(dr2[0]), int.Parse(dr2[1].ToString())));
             }
             bgl.baglanti().Close();
 

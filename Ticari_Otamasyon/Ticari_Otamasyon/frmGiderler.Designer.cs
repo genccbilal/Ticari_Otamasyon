@@ -126,6 +126,7 @@
             this.cmbYil.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.cmbYil.Properties.Items.AddRange(new object[] {
+            "2020",
             "2021",
             "2022",
             "2023"});

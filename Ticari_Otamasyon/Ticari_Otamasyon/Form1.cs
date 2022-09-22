@@ -30,96 +30,129 @@ namespace Ticari_Otamasyon
             frmA = new frmAnasayfa();
             frmA.MdiParent=this;
             frmA.Show();
-
-
         }
-        FrmUrunler frm;
+       
         private void btnUrunler_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
 
-            if (frm==null || frm.IsDisposed)
+            FrmUrunler frmUrun = (FrmUrunler)Application.OpenForms["FrmUrunler"];
+
+            if (frmUrun!=null)
             {
-                frm = new FrmUrunler();
-                frm.MdiParent = this;
-                frm.Show();
+                frmUrun.Focus();
+                return;
             }
-            
+
+            frmUrun = new FrmUrunler();
+            frmUrun.MdiParent = this;
+            frmUrun.Show();  
 
         }
-        frmMusteriler frm2;
+        
         private void btnMusteri_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            if (frm2 == null || frm2.IsDisposed)
+            frmMusteriler frmMstr = (frmMusteriler)Application.OpenForms["frmMusteriler"];
+
+            if (frmMstr!=null)
             {
-                frm2 = new frmMusteriler();
-                frm2.MdiParent = this;
-                frm2.Show();
+                frmMstr.Focus();
+                return;
             }
-          
+            frmMstr = new frmMusteriler();
+            frmMstr.MdiParent = this;
+            frmMstr.Show();
         }
 
-        frmFırmalar frm3;
         private void btnFırmalar_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            if (frm3== null || frm3.IsDisposed)
+            frmFırmalar frmFrm = (frmFırmalar)Application.OpenForms["frmFırmalar"];
+
+            if (frmFrm !=null)
             {
-                frm3 = new frmFırmalar();
-                frm3.MdiParent = this;
-                frm3.Show();
+                frmFrm.Focus();
+                return;
             }
+
+            frmFrm = new frmFırmalar();
+            frmFrm.MdiParent = this;
+            frmFrm.Show();
         }
 
-        FrmPersonel frm4;
+        
         private void btnPersonel_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            if (frm4== null || frm4.IsDisposed)
+            FrmPersonel frmPrs = (FrmPersonel)Application.OpenForms["FrmPersonel"];
+
+            if (frmPrs != null)
             {
-                frm4 = new FrmPersonel();
-                frm4.MdiParent = this;
-                frm4.Show();
+                frmPrs.Focus();
+                return;
             }
+
+            frmPrs = new FrmPersonel();
+            frmPrs.MdiParent = this;
+            frmPrs.Show();
         }
 
-        frmRehber frm5;
+        
         private void btnRehber_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            if (frm5== null || frm5.IsDisposed)
+            frmRehber frmRhb = (frmRehber)Application.OpenForms["frmRehber"];
+
+            if (frmRhb != null)
             {
-                frm5 = new frmRehber();
-                frm5.MdiParent = this;
-                frm5.Show();
+                frmRhb.Focus();
+                return;
             }
+
+            frmRhb = new frmRehber();
+            frmRhb.MdiParent = this;
+            frmRhb.Show();
         }
-        frmGiderler frm6;
+        
         private void btnGiderler_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            if (frm6==null || frm6.IsDisposed)
+            frmGiderler frmGdr = (frmGiderler)Application.OpenForms["frmGiderler"];
+
+            if (frmGdr != null)
             {
-                frm6 = new frmGiderler();
-                frm6.MdiParent = this;
-                frm6.Show();
+                frmGdr.Focus();
+                return;
             }
+
+            frmGdr = new frmGiderler();
+            frmGdr.MdiParent = this;
+            frmGdr.Show();
         }
 
-        frmBankalar frm7;
         private void btnBankalar_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            if (frm7==null || frm7.IsDisposed)
+            frmBankalar frmBnk = (frmBankalar)Application.OpenForms["frmBankalar"];
+
+            if (frmBnk != null)
             {
-                frm7 = new frmBankalar();
-                frm7.MdiParent = this;
-                frm7.Show();
+                frmBnk.Focus();
+                return;
             }
+
+            frmBnk = new frmBankalar();
+            frmBnk.MdiParent = this;
+            frmBnk.Show();
         }
-        FrmFaturalar frm8;
+        
         private void btnFaturalar_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            if (frm8 == null || frm8.IsDisposed)
+            FrmFaturalar frmFtr = (FrmFaturalar)Application.OpenForms["FrmFaturalar"];
+
+            if (frmFtr != null)
             {
-                frm8 = new FrmFaturalar();
-                frm8.MdiParent = this;
-                frm8.Show();
+                frmFtr.Focus();
+                return;
             }
+
+            frmFtr = new FrmFaturalar();
+            frmFtr.MdiParent = this;
+            frmFtr.Show();
         }
 
         private void btnNotlar_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
@@ -152,15 +185,20 @@ namespace Ticari_Otamasyon
             frmHareket.Show();
         }
 
-        frmRaporlar frm10;
+        
         private void btnRaporlar_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            if (frm10 == null || frm10.IsDisposed)
+            frmRaporlar frmRpr = (frmRaporlar)Application.OpenForms["frmRaporlar"];
+
+            if (frmRpr != null)
             {
-                frm10 = new frmRaporlar();
-                frm10.MdiParent = this;
-                frm10.Show();
+                frmRpr.Focus();
+                return;
             }
+
+            frmRpr = new frmRaporlar();
+            frmRpr.MdiParent = this;
+            frmRpr.Show();
         }
 
         private void btnStoklar_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)

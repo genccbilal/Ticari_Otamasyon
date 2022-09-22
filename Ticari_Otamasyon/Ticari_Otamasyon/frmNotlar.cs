@@ -60,7 +60,6 @@ namespace Ticari_Otamasyon
             MessageBox.Show("Not sisteme eklendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
             NotListele();
             Temizle();
-
         }
 
 
@@ -71,9 +70,9 @@ namespace Ticari_Otamasyon
                 DialogResult secim = MessageBox.Show("Silmek İstediğinize Emin misiniz ? ", "Uyarı", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
                 if (secim == DialogResult.Yes)
                 {
-                    SqlCommand Delet = new SqlCommand("DELETE FROM TBL_NOTLAR WHERE NOTID=@d1", bgl.baglanti());
-                    Delet.Parameters.AddWithValue("@d1", txtId.Text);
-                    Delet.ExecuteNonQuery();
+                    SqlCommand Delete = new SqlCommand("DELETE FROM TBL_NOTLAR WHERE NOTID=@d1", bgl.baglanti());
+                    Delete.Parameters.AddWithValue("@d1", txtId.Text);
+                    Delete.ExecuteNonQuery();
                     bgl.baglanti().Close();
                     Temizle();
                 }
@@ -84,7 +83,7 @@ namespace Ticari_Otamasyon
                     Temizle();
                 }
             }
-            catch (Exception)
+            catch 
             {
                 MessageBox.Show("Bir Hata Meydana Geldi.Lütfen Silmek İstediğiniz Stüna İki Kere Tıklayarak Tekrar Deneyiniz.!", "UYARI", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -132,7 +131,6 @@ namespace Ticari_Otamasyon
         private void gridView1_DoubleClick(object sender, EventArgs e)
         {
             //mesajı ayrı ekranda görüntüleme ve durumu okundu yapma 
-
             frmNotDetay frm = new frmNotDetay();
             DataRow dr = gridView1.GetDataRow(gridView1.FocusedRowHandle);
 

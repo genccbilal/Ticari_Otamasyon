@@ -591,7 +591,6 @@ namespace Ticari_Otamasyon
             this.groupControl5.Size = new System.Drawing.Size(292, 545);
             this.groupControl5.TabIndex = 1;
             this.groupControl5.Text = "groupControl5";
-            this.groupControl5.Paint += new System.Windows.Forms.PaintEventHandler(this.groupControl5_Paint);
             // 
             // btnTemizle
             // 

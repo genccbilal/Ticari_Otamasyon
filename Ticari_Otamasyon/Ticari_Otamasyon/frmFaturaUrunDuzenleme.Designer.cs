@@ -43,6 +43,8 @@ namespace Ticari_Otamasyon
             this.labelControl7 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl9 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl8 = new DevExpress.XtraEditors.LabelControl();
+            this.txtMarka = new DevExpress.XtraEditors.TextEdit();
+            this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl5)).BeginInit();
             this.groupControl5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.txtTutar.Properties)).BeginInit();
@@ -50,10 +52,13 @@ namespace Ticari_Otamasyon
             ((System.ComponentModel.ISupportInitialize)(this.txtMiktar.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtUrunAd.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtUrunID.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtMarka.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // groupControl5
             // 
+            this.groupControl5.Controls.Add(this.labelControl1);
+            this.groupControl5.Controls.Add(this.txtMarka);
             this.groupControl5.Controls.Add(this.btnSil);
             this.groupControl5.Controls.Add(this.BtnGuncelle);
             this.groupControl5.Controls.Add(this.txtTutar);
@@ -79,7 +84,7 @@ namespace Ticari_Otamasyon
             this.btnSil.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnSil.Appearance.Options.UseFont = true;
             this.btnSil.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnSil.ImageOptions.Image")));
-            this.btnSil.Location = new System.Drawing.Point(104, 255);
+            this.btnSil.Location = new System.Drawing.Point(104, 291);
             this.btnSil.Margin = new System.Windows.Forms.Padding(4);
             this.btnSil.Name = "btnSil";
             this.btnSil.Size = new System.Drawing.Size(188, 47);
@@ -92,7 +97,7 @@ namespace Ticari_Otamasyon
             this.BtnGuncelle.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnGuncelle.Appearance.Options.UseFont = true;
             this.BtnGuncelle.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("BtnGuncelle.ImageOptions.Image")));
-            this.BtnGuncelle.Location = new System.Drawing.Point(105, 200);
+            this.BtnGuncelle.Location = new System.Drawing.Point(105, 236);
             this.BtnGuncelle.Margin = new System.Windows.Forms.Padding(4);
             this.BtnGuncelle.Name = "BtnGuncelle";
             this.BtnGuncelle.Size = new System.Drawing.Size(187, 47);
@@ -102,7 +107,7 @@ namespace Ticari_Otamasyon
             // 
             // txtTutar
             // 
-            this.txtTutar.Location = new System.Drawing.Point(105, 164);
+            this.txtTutar.Location = new System.Drawing.Point(104, 200);
             this.txtTutar.Margin = new System.Windows.Forms.Padding(4);
             this.txtTutar.Name = "txtTutar";
             this.txtTutar.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -112,7 +117,7 @@ namespace Ticari_Otamasyon
             // 
             // txtFiyat
             // 
-            this.txtFiyat.Location = new System.Drawing.Point(105, 128);
+            this.txtFiyat.Location = new System.Drawing.Point(104, 164);
             this.txtFiyat.Margin = new System.Windows.Forms.Padding(4);
             this.txtFiyat.Name = "txtFiyat";
             this.txtFiyat.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -122,7 +127,7 @@ namespace Ticari_Otamasyon
             // 
             // txtMiktar
             // 
-            this.txtMiktar.Location = new System.Drawing.Point(105, 92);
+            this.txtMiktar.Location = new System.Drawing.Point(104, 128);
             this.txtMiktar.Margin = new System.Windows.Forms.Padding(4);
             this.txtMiktar.Name = "txtMiktar";
             this.txtMiktar.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -144,7 +149,7 @@ namespace Ticari_Otamasyon
             // 
             this.labelControl6.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl6.Appearance.Options.UseFont = true;
-            this.labelControl6.Location = new System.Drawing.Point(52, 171);
+            this.labelControl6.Location = new System.Drawing.Point(50, 207);
             this.labelControl6.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl6.Name = "labelControl6";
             this.labelControl6.Size = new System.Drawing.Size(46, 21);
@@ -153,6 +158,7 @@ namespace Ticari_Otamasyon
             // 
             // txtUrunID
             // 
+            this.txtUrunID.Enabled = false;
             this.txtUrunID.Location = new System.Drawing.Point(105, 20);
             this.txtUrunID.Margin = new System.Windows.Forms.Padding(4);
             this.txtUrunID.Name = "txtUrunID";
@@ -165,7 +171,7 @@ namespace Ticari_Otamasyon
             // 
             this.labelControl10.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl10.Appearance.Options.UseFont = true;
-            this.labelControl10.Location = new System.Drawing.Point(46, 99);
+            this.labelControl10.Location = new System.Drawing.Point(44, 135);
             this.labelControl10.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl10.Name = "labelControl10";
             this.labelControl10.Size = new System.Drawing.Size(52, 21);
@@ -176,7 +182,7 @@ namespace Ticari_Otamasyon
             // 
             this.labelControl7.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl7.Appearance.Options.UseFont = true;
-            this.labelControl7.Location = new System.Drawing.Point(34, 27);
+            this.labelControl7.Location = new System.Drawing.Point(32, 27);
             this.labelControl7.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl7.Name = "labelControl7";
             this.labelControl7.Size = new System.Drawing.Size(64, 21);
@@ -187,7 +193,7 @@ namespace Ticari_Otamasyon
             // 
             this.labelControl9.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl9.Appearance.Options.UseFont = true;
-            this.labelControl9.Location = new System.Drawing.Point(56, 135);
+            this.labelControl9.Location = new System.Drawing.Point(54, 171);
             this.labelControl9.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl9.Name = "labelControl9";
             this.labelControl9.Size = new System.Drawing.Size(42, 21);
@@ -198,12 +204,33 @@ namespace Ticari_Otamasyon
             // 
             this.labelControl8.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl8.Appearance.Options.UseFont = true;
-            this.labelControl8.Location = new System.Drawing.Point(32, 63);
+            this.labelControl8.Location = new System.Drawing.Point(30, 63);
             this.labelControl8.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl8.Name = "labelControl8";
             this.labelControl8.Size = new System.Drawing.Size(66, 21);
             this.labelControl8.TabIndex = 12;
             this.labelControl8.Text = "Ürün Ad:";
+            // 
+            // txtMarka
+            // 
+            this.txtMarka.Location = new System.Drawing.Point(104, 92);
+            this.txtMarka.Margin = new System.Windows.Forms.Padding(4);
+            this.txtMarka.Name = "txtMarka";
+            this.txtMarka.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txtMarka.Properties.Appearance.Options.UseFont = true;
+            this.txtMarka.Size = new System.Drawing.Size(187, 28);
+            this.txtMarka.TabIndex = 30;
+            // 
+            // labelControl1
+            // 
+            this.labelControl1.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labelControl1.Appearance.Options.UseFont = true;
+            this.labelControl1.Location = new System.Drawing.Point(45, 99);
+            this.labelControl1.Margin = new System.Windows.Forms.Padding(4);
+            this.labelControl1.Name = "labelControl1";
+            this.labelControl1.Size = new System.Drawing.Size(51, 21);
+            this.labelControl1.TabIndex = 31;
+            this.labelControl1.Text = "Marka:";
             // 
             // frmFaturaUrunDuzenleme
             // 
@@ -228,6 +255,7 @@ namespace Ticari_Otamasyon
             ((System.ComponentModel.ISupportInitialize)(this.txtMiktar.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtUrunAd.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtUrunID.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtMarka.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -247,5 +275,7 @@ namespace Ticari_Otamasyon
         private DevExpress.XtraEditors.LabelControl labelControl8;
         private DevExpress.XtraEditors.SimpleButton btnSil;
         private DevExpress.XtraEditors.SimpleButton BtnGuncelle;
+        private DevExpress.XtraEditors.LabelControl labelControl1;
+        private DevExpress.XtraEditors.TextEdit txtMarka;
     }
 }

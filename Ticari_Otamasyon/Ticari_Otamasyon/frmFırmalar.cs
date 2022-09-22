@@ -63,10 +63,8 @@ namespace Ticari_Otamasyon
             bgl.baglanti().Close();
         }
 
-
         void KodAciklama()
         {
-
             SqlCommand komut = new SqlCommand("Select FIRMAKOD1 from TBL_KODLAR", bgl.baglanti());
             SqlDataReader dr = komut.ExecuteReader();
             while (dr.Read())
@@ -76,10 +74,8 @@ namespace Ticari_Otamasyon
             bgl.baglanti().Close();
         }
 
-
         private void frmFırmalar_Load(object sender, EventArgs e)
         {
-
             FirmaListele();
             Temizle();
             IlListesi();
@@ -133,7 +129,6 @@ namespace Ticari_Otamasyon
             MessageBox.Show("Firma sisteme eklendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
             FirmaListele();
             Temizle();
-
         }
 
         private void cmbIl_SelectedIndexChanged(object sender, EventArgs e)
@@ -157,9 +152,9 @@ namespace Ticari_Otamasyon
                 DialogResult secim = MessageBox.Show("Silmek İstediğinize Emin misiniz ? ", "Uyarı", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
                 if (secim == DialogResult.Yes)
                 {
-                    SqlCommand Delet = new SqlCommand("DELETE FROM TBL_FIRMALAR WHERE ID=@d1", bgl.baglanti());
-                    Delet.Parameters.AddWithValue("@d1", txtId.Text);
-                    Delet.ExecuteNonQuery();
+                    SqlCommand Delete = new SqlCommand("DELETE FROM TBL_FIRMALAR WHERE ID=@d1", bgl.baglanti());
+                    Delete.Parameters.AddWithValue("@d1", txtId.Text);
+                    Delete.ExecuteNonQuery();
                     bgl.baglanti().Close();
                     Temizle();
                 }
@@ -170,18 +165,16 @@ namespace Ticari_Otamasyon
                     Temizle();
                 }
             }
-            catch (Exception)
+            catch
             {
                 MessageBox.Show("Bir Hata Meydana Geldi.Lütfen Silmek İstediğiniz Stüna İki Kere Tıklayarak Tekrar Deneyiniz.!", "UYARI", MessageBoxButtons.OK, MessageBoxIcon.Error);
-
-
             }
             finally
             {
                 Temizle();
             }
             FirmaListele();
-           
+
         }
 
         private void BtnGuncelle_Click(object sender, EventArgs e)
@@ -216,9 +209,5 @@ namespace Ticari_Otamasyon
             Temizle();
         }
 
-        private void groupControl5_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
     }
 }

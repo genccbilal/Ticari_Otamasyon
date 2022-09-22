@@ -110,6 +110,7 @@ namespace Ticari_Otamasyon
             // 
             // frmAdmin
             // 
+            this.AcceptButton = this.btnGiriş;
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));

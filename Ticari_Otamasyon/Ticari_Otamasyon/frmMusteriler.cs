@@ -77,18 +77,18 @@ namespace Ticari_Otamasyon
 
         private void btnKaydet_Click(object sender, EventArgs e)
         {
-            SqlCommand kayit = new SqlCommand("INSERT INTO TBL_MUSTERILER (AD,SOYAD,TELEFON,TELEFON2,TC,MAIL,IL,ILCE,ADRES,VERGIDAIRE) VALUES (@k1,@k2,@k3,@k4,@k5,@k6,@k7,@k8,@k9,@k10)", bgl.baglanti());
-            kayit.Parameters.AddWithValue("@k1", txtAd.Text);
-            kayit.Parameters.AddWithValue("@k2", txtSoyad.Text);
-            kayit.Parameters.AddWithValue("@k3", mskTelefon1.Text);
-            kayit.Parameters.AddWithValue("@k4", mskTelefon2.Text);
-            kayit.Parameters.AddWithValue("@k5", mskTc.Text);
-            kayit.Parameters.AddWithValue("@k6", txtMail.Text);
-            kayit.Parameters.AddWithValue("@k7", cmbIl.Text);
-            kayit.Parameters.AddWithValue("@k8", cmbIlce.Text);
-            kayit.Parameters.AddWithValue("@k9", rchtAdres.Text);
-            kayit.Parameters.AddWithValue("@k10", txtVergiDairesi.Text);
-            kayit.ExecuteNonQuery();
+            SqlCommand save = new SqlCommand("INSERT INTO TBL_MUSTERILER (AD,SOYAD,TELEFON,TELEFON2,TC,MAIL,IL,ILCE,ADRES,VERGIDAIRE) VALUES (@k1,@k2,@k3,@k4,@k5,@k6,@k7,@k8,@k9,@k10)", bgl.baglanti());
+            save.Parameters.AddWithValue("@k1", txtAd.Text);
+            save.Parameters.AddWithValue("@k2", txtSoyad.Text);
+            save.Parameters.AddWithValue("@k3", mskTelefon1.Text);
+            save.Parameters.AddWithValue("@k4", mskTelefon2.Text);
+            save.Parameters.AddWithValue("@k5", mskTc.Text);
+            save.Parameters.AddWithValue("@k6", txtMail.Text);
+            save.Parameters.AddWithValue("@k7", cmbIl.Text);
+            save.Parameters.AddWithValue("@k8", cmbIlce.Text);
+            save.Parameters.AddWithValue("@k9", rchtAdres.Text);
+            save.Parameters.AddWithValue("@k10", txtVergiDairesi.Text);
+            save.ExecuteNonQuery();
             bgl.baglanti().Close();
             MessageBox.Show("Müsteri sisteme eklendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
             Listele();
@@ -118,9 +118,9 @@ namespace Ticari_Otamasyon
                 DialogResult secim = MessageBox.Show("Silmek İstediğinize Emin misiniz ?", "Uyarı", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
                 if (secim == DialogResult.Yes)
                 {
-                    SqlCommand sil = new SqlCommand("DELETE FROM TBL_MUSTERILER WHERE ID=@s1", bgl.baglanti());
-                    sil.Parameters.AddWithValue("@s1", txtId.Text);
-                    sil.ExecuteNonQuery();
+                    SqlCommand delete = new SqlCommand("DELETE FROM TBL_MUSTERILER WHERE ID=@s1", bgl.baglanti());
+                    delete.Parameters.AddWithValue("@s1", txtId.Text);
+                    delete.ExecuteNonQuery();
                     bgl.baglanti().Close();
                     MessageBox.Show("Ürün silindi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }

@@ -76,21 +76,22 @@ namespace Ticari_Otamasyon
 
         private void btnKaydet_Click(object sender, EventArgs e)
         {
-            SqlCommand komut = new SqlCommand("INSERT INTO TBL_BANKALAR (BANKAADI,IL,ILCE,SUBE,IBAN,HESAPNO,YETKILI,TELEFON,TARIH,HESAPTURU,FIRMAID) VALUES (@k1,@k2,@k3,@k4,@k5,@k6,@k7,@k8,@k9,@k10,@k11)", bgl.baglanti());
-            komut.Parameters.AddWithValue("@k1", txtBankaAd.Text);
-            komut.Parameters.AddWithValue("@k2", cmbIl.Text);
-            komut.Parameters.AddWithValue("@k3", cmbIlce.Text);
-            komut.Parameters.AddWithValue("@k4", txtSube.Text);
-            komut.Parameters.AddWithValue("@k5", mskIban.Text);
-            komut.Parameters.AddWithValue("@k6", txtHesapNo.Text);
-            komut.Parameters.AddWithValue("@k7", txtYetkili.Text);
-            komut.Parameters.AddWithValue("@k8", mskTelefon.Text);
-            komut.Parameters.AddWithValue("@k9", mskTarih.Text);
-            komut.Parameters.AddWithValue("@k10", txtHesapTuru.Text);
-            komut.Parameters.AddWithValue("@k11", lookUpEdit1.EditValue);
-            komut.ExecuteNonQuery();
+            SqlCommand save = new SqlCommand("INSERT INTO TBL_BANKALAR (BANKAADI,IL,ILCE,SUBE,IBAN,HESAPNO,YETKILI,TELEFON,TARIH,HESAPTURU,FIRMAID) VALUES (@k1,@k2,@k3,@k4,@k5,@k6,@k7,@k8,@k9,@k10,@k11)", bgl.baglanti());
+            save.Parameters.AddWithValue("@k1", txtBankaAd.Text);
+            save.Parameters.AddWithValue("@k2", cmbIl.Text);
+            save.Parameters.AddWithValue("@k3", cmbIlce.Text);
+            save.Parameters.AddWithValue("@k4", txtSube.Text);
+            save.Parameters.AddWithValue("@k5", mskIban.Text);
+            save.Parameters.AddWithValue("@k6", txtHesapNo.Text);
+            save.Parameters.AddWithValue("@k7", txtYetkili.Text);
+            save.Parameters.AddWithValue("@k8", mskTelefon.Text);
+            save.Parameters.AddWithValue("@k9", mskTarih.Text);
+            save.Parameters.AddWithValue("@k10", txtHesapTuru.Text);
+            save.Parameters.AddWithValue("@k11", lookUpEdit1.EditValue);
+            save.ExecuteNonQuery();
             bgl.baglanti().Close();
             BankaListesi();
+            Temizle();
             MessageBox.Show("Banka Bilgisi Sisteme Eklendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
         }
@@ -102,9 +103,9 @@ namespace Ticari_Otamasyon
                 DialogResult Secim = MessageBox.Show("Silmek İstediğinize Eminmisiniz", "Uyarı", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
                 if (Secim == DialogResult.Yes)
                 {
-                    SqlCommand sil = new SqlCommand("DELETE FROM TBL_BANKALAR WHERE ID=@s1", bgl.baglanti());
-                    sil.Parameters.AddWithValue("@s1", txtId.Text);
-                    sil.ExecuteNonQuery();
+                    SqlCommand delete = new SqlCommand("DELETE FROM TBL_BANKALAR WHERE ID=@s1", bgl.baglanti());
+                    delete.Parameters.AddWithValue("@s1", txtId.Text);
+                    delete.ExecuteNonQuery();
                     bgl.baglanti().Close();
                     MessageBox.Show("Banka silindi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }

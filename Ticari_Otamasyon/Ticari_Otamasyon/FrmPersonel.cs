@@ -77,23 +77,22 @@ namespace Ticari_Otamasyon
 
         private void btnTemizle_Click(object sender, EventArgs e)
         {
-            Temizle();
-           
+            Temizle();        
         }
 
         private void btnKaydet_Click(object sender, EventArgs e)
         {
-            SqlCommand kayit = new SqlCommand("INSERT INTO TBL_PERSONELLER (AD,SOYAD,TELEFON,TC,MAIL,IL,ILCE,ADRES,GOREV) VALUES (@k1,@k2,@k3,@k4,@k5,@k6,@k7,@k8,@k9)", bgl.baglanti());
-            kayit.Parameters.AddWithValue("@k1", txtAd.Text);
-            kayit.Parameters.AddWithValue("@k2", txtSoyad.Text);
-            kayit.Parameters.AddWithValue("@k3", mskTelefon1.Text);
-            kayit.Parameters.AddWithValue("@k4", mskTc.Text);
-            kayit.Parameters.AddWithValue("@k5", txtMail.Text);
-            kayit.Parameters.AddWithValue("@k6", cmbIl.Text);
-            kayit.Parameters.AddWithValue("@k7", cmbIlce.Text);
-            kayit.Parameters.AddWithValue("@k8", rchtAdres.Text);
-            kayit.Parameters.AddWithValue("@k9", txtGörev.Text);
-            kayit.ExecuteNonQuery();
+            SqlCommand save = new SqlCommand("INSERT INTO TBL_PERSONELLER (AD,SOYAD,TELEFON,TC,MAIL,IL,ILCE,ADRES,GOREV) VALUES (@k1,@k2,@k3,@k4,@k5,@k6,@k7,@k8,@k9)", bgl.baglanti());
+            save.Parameters.AddWithValue("@k1", txtAd.Text);
+            save.Parameters.AddWithValue("@k2", txtSoyad.Text);
+            save.Parameters.AddWithValue("@k3", mskTelefon1.Text);
+            save.Parameters.AddWithValue("@k4", mskTc.Text);
+            save.Parameters.AddWithValue("@k5", txtMail.Text);
+            save.Parameters.AddWithValue("@k6", cmbIl.Text);
+            save.Parameters.AddWithValue("@k7", cmbIlce.Text);
+            save.Parameters.AddWithValue("@k8", rchtAdres.Text);
+            save.Parameters.AddWithValue("@k9", txtGörev.Text);
+            save.ExecuteNonQuery();
             bgl.baglanti().Close();
             MessageBox.Show("Personel sisteme eklendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
             personelListesi();
@@ -107,12 +106,11 @@ namespace Ticari_Otamasyon
                 DialogResult secim = MessageBox.Show("Silmek Sitediğinize Eminmisiniz", "Uyarı", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
                 if (secim == DialogResult.Yes)
                 {
-                    SqlCommand sil = new SqlCommand("DELETE FROM TBL_PERSONELLER WHERE ID=@s1", bgl.baglanti());
-                    sil.Parameters.AddWithValue("@s1", txtId.Text);
-                    sil.ExecuteNonQuery();
+                    SqlCommand delete = new SqlCommand("DELETE FROM TBL_PERSONELLER WHERE ID=@s1", bgl.baglanti());
+                    delete.Parameters.AddWithValue("@s1", txtId.Text);
+                    delete.ExecuteNonQuery();
                     bgl.baglanti().Close();
                     MessageBox.Show("Personel silindi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Error);
-
                 }
                 else
                 {

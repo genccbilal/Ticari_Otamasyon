@@ -78,6 +78,8 @@ namespace Ticari_Otamasyon
             this.lblMusteriSayisi = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.xtraTabControl1 = new DevExpress.XtraTab.XtraTabControl();
+            this.groupControl12 = new DevExpress.XtraEditors.GroupControl();
+            this.groupControl13 = new DevExpress.XtraEditors.GroupControl();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
             this.groupControl2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
@@ -117,6 +119,10 @@ namespace Ticari_Otamasyon
             this.groupControl4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).BeginInit();
             this.xtraTabControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl12)).BeginInit();
+            this.groupControl12.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl13)).BeginInit();
+            this.groupControl13.SuspendLayout();
             this.SuspendLayout();
             // 
             // timer2
@@ -229,12 +235,13 @@ namespace Ticari_Otamasyon
             // 
             // gridControl1
             // 
+            this.gridControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gridControl1.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(4);
-            this.gridControl1.Location = new System.Drawing.Point(511, 4);
+            this.gridControl1.Location = new System.Drawing.Point(2, 28);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Margin = new System.Windows.Forms.Padding(4);
             this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(1019, 280);
+            this.gridControl1.Size = new System.Drawing.Size(1013, 250);
             this.gridControl1.TabIndex = 7;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -336,7 +343,8 @@ namespace Ticari_Otamasyon
             // 
             // xtraTabPage1
             // 
-            this.xtraTabPage1.Controls.Add(this.gridControl3);
+            this.xtraTabPage1.Controls.Add(this.groupControl13);
+            this.xtraTabPage1.Controls.Add(this.groupControl12);
             this.xtraTabPage1.Controls.Add(this.groupControl9);
             this.xtraTabPage1.Controls.Add(this.groupControl8);
             this.xtraTabPage1.Controls.Add(this.groupControl7);
@@ -346,7 +354,6 @@ namespace Ticari_Otamasyon
             this.xtraTabPage1.Controls.Add(this.groupControl3);
             this.xtraTabPage1.Controls.Add(this.groupControl2);
             this.xtraTabPage1.Controls.Add(this.groupControl1);
-            this.xtraTabPage1.Controls.Add(this.gridControl1);
             this.xtraTabPage1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("xtraTabPage1.ImageOptions.Image")));
             this.xtraTabPage1.Margin = new System.Windows.Forms.Padding(4);
             this.xtraTabPage1.Name = "xtraTabPage1";
@@ -355,12 +362,13 @@ namespace Ticari_Otamasyon
             // 
             // gridControl3
             // 
+            this.gridControl3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gridControl3.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(4);
-            this.gridControl3.Location = new System.Drawing.Point(511, 288);
+            this.gridControl3.Location = new System.Drawing.Point(2, 28);
             this.gridControl3.MainView = this.gridView3;
             this.gridControl3.Margin = new System.Windows.Forms.Padding(4);
             this.gridControl3.Name = "gridControl3";
-            this.gridControl3.Size = new System.Drawing.Size(1019, 280);
+            this.gridControl3.Size = new System.Drawing.Size(1013, 250);
             this.gridControl3.TabIndex = 17;
             this.gridControl3.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView3});
@@ -592,6 +600,24 @@ namespace Ticari_Otamasyon
             this.xtraTabPage1,
             this.xtraTabPage2});
             // 
+            // groupControl12
+            // 
+            this.groupControl12.Controls.Add(this.gridControl3);
+            this.groupControl12.Location = new System.Drawing.Point(510, 288);
+            this.groupControl12.Name = "groupControl12";
+            this.groupControl12.Size = new System.Drawing.Size(1017, 280);
+            this.groupControl12.TabIndex = 18;
+            this.groupControl12.Text = "Firma Hareketler";
+            // 
+            // groupControl13
+            // 
+            this.groupControl13.Controls.Add(this.gridControl1);
+            this.groupControl13.Location = new System.Drawing.Point(510, 4);
+            this.groupControl13.Name = "groupControl13";
+            this.groupControl13.Size = new System.Drawing.Size(1017, 280);
+            this.groupControl13.TabIndex = 19;
+            this.groupControl13.Text = "Müşteri Hareketler";
+            // 
             // frmKasa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
@@ -651,6 +677,10 @@ namespace Ticari_Otamasyon
             this.groupControl4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).EndInit();
             this.xtraTabControl1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl12)).EndInit();
+            this.groupControl12.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl13)).EndInit();
+            this.groupControl13.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -699,5 +729,7 @@ namespace Ticari_Otamasyon
         private DevExpress.XtraTab.XtraTabControl xtraTabControl1;
         private DevExpress.XtraGrid.GridControl gridControl2;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView2;
+        private DevExpress.XtraEditors.GroupControl groupControl13;
+        private DevExpress.XtraEditors.GroupControl groupControl12;
     }
 }

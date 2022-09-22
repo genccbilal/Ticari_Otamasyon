@@ -44,22 +44,22 @@ namespace Ticari_Otamasyon
         {
             Listele();
             Temizle();
-                     
+
         }
 
         private void btnKaydet_Click(object sender, EventArgs e)
         {
             //Verileri kaydetme
-            SqlCommand kayit = new SqlCommand("INSERT INTO TBL_URUNLER (URUNAD,MARKA,MODEL,YIL,ADET,ALISFIYAT,SATISFIYAT,DETAY) VALUES (@k1,@k2,@k3,@k4,@k5,@k6,@k7,@k8)", bgl.baglanti());
-            kayit.Parameters.AddWithValue("@k1", txtAd.Text); ;
-            kayit.Parameters.AddWithValue("@k2", txtMarka.Text);
-            kayit.Parameters.AddWithValue("@k3", txtModel.Text);
-            kayit.Parameters.AddWithValue("@k4", mskYil.Text);
-            kayit.Parameters.AddWithValue("@k5", int.Parse((nudAdet.Value).ToString()));
-            kayit.Parameters.AddWithValue("@k6", decimal.Parse(txtAlisFiyat.Text));
-            kayit.Parameters.AddWithValue("@k7", decimal.Parse(txtSatisFiyat.Text));
-            kayit.Parameters.AddWithValue("@k8", rchtDetay.Text);
-            kayit.ExecuteNonQuery();
+            SqlCommand save = new SqlCommand("INSERT INTO TBL_URUNLER (URUNAD,MARKA,MODEL,YIL,ADET,ALISFIYAT,SATISFIYAT,DETAY) VALUES (@k1,@k2,@k3,@k4,@k5,@k6,@k7,@k8)", bgl.baglanti());
+            save.Parameters.AddWithValue("@k1", txtAd.Text); ;
+            save.Parameters.AddWithValue("@k2", txtMarka.Text);
+            save.Parameters.AddWithValue("@k3", txtModel.Text);
+            save.Parameters.AddWithValue("@k4", mskYil.Text);
+            save.Parameters.AddWithValue("@k5", int.Parse((nudAdet.Value).ToString()));
+            save.Parameters.AddWithValue("@k6", decimal.Parse(txtAlisFiyat.Text));
+            save.Parameters.AddWithValue("@k7", decimal.Parse(txtSatisFiyat.Text));
+            save.Parameters.AddWithValue("@k8", rchtDetay.Text);
+            save.ExecuteNonQuery();
             bgl.baglanti().Close();
             MessageBox.Show("Ürün sisteme eklendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
             Listele();
@@ -69,13 +69,35 @@ namespace Ticari_Otamasyon
 
         private void btnSil_Click(object sender, EventArgs e)
         {
-            SqlCommand sil = new SqlCommand("DELETE FROM TBL_URUNLER WHERE ID=@s1", bgl.baglanti());
-            sil.Parameters.AddWithValue("@s1", txtId.Text);
-            sil.ExecuteNonQuery();
-            bgl.baglanti().Close();
-            MessageBox.Show("Ürün silindi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            try
+            {
+                DialogResult secim = MessageBox.Show("Silmek İstediğinize Emin misiniz ?", "Uyarı", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+                if (secim == DialogResult.Yes)
+                {
+                    SqlCommand delete = new SqlCommand("DELETE FROM TBL_URUNLER WHERE ID=@s1", bgl.baglanti());
+                    delete.Parameters.AddWithValue("@s1", txtId.Text);
+                    delete.ExecuteNonQuery();
+                    bgl.baglanti().Close();
+                    MessageBox.Show("Ürün silindi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    Listele();
+                    Temizle();
+                }
+                else
+                {
+                    MessageBox.Show("Silme İşlemi İptal Edilmiştir.", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    Listele();
+                    Temizle();
+                }
+            }
+            catch 
+            {
+                MessageBox.Show("Bir Hata Meydana Geldi.Lütfen Silmek İstediğiniz Stüna İki Kere Tıklayarak Tekrar Deneyiniz.!", "UYARI", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                Temizle();
+            }
             Listele();
-            Temizle();
         }
 
         private void gridView1_FocusedRowChanged(object sender, DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventArgs e)
@@ -85,8 +107,8 @@ namespace Ticari_Otamasyon
             txtAd.Text = dr["URUNAD"].ToString();
             txtMarka.Text = dr["MARKA"].ToString();
             txtModel.Text = dr["MODEL"].ToString();
-            mskYil.Text= dr["YIL"].ToString();
-            nudAdet.Value=decimal.Parse( dr["ADET"].ToString());
+            mskYil.Text = dr["YIL"].ToString();
+            nudAdet.Value = decimal.Parse(dr["ADET"].ToString());
             txtAlisFiyat.Text = dr["ALISFIYAT"].ToString();
             txtSatisFiyat.Text = dr["SATISFIYAT"].ToString();
             rchtDetay.Text = dr["DETAY"].ToString();
