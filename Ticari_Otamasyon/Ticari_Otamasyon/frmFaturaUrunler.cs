@@ -35,7 +35,12 @@ namespace Ticari_Otamasyon
             Listele();
         }
 
-        private void gridView1_DoubleClick(object sender, EventArgs e)
+        private void frmFaturaUrunler_Activated(object sender, EventArgs e)
+        {
+            Listele();
+        }
+
+        private void GridView1_DoubleClick_1(object sender, EventArgs e)
         {
             frmFaturaUrunDuzenleme frm = new frmFaturaUrunDuzenleme();
             DataRow dr = gridView1.GetDataRow(gridView1.FocusedRowHandle);
@@ -45,11 +50,6 @@ namespace Ticari_Otamasyon
                 frm.UrunID = dr["FATURAURUNID"].ToString();
             }
             frm.Show();
-        }
-
-        private void frmFaturaUrunler_Activated(object sender, EventArgs e)
-        {
-            Listele();
         }
     }
 }

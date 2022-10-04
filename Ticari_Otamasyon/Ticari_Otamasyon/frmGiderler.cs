@@ -50,7 +50,7 @@ namespace Ticari_Otamasyon
 
         private void btnKaydet_Click(object sender, EventArgs e)
         {
-            if (txtSu.Text == "" || txtElektirik.Text == "" || txtDogalgaz.Text == "" || txtInternet.Text == "" || txtInternet.Text == "" || txtEkstra.Text == "")
+            if (cmbAy.Text == "" || cmbYil.Text == "" || txtSu.Text == "" || txtElektirik.Text == "" || txtDogalgaz.Text == "" || txtInternet.Text == "" || txtMaaslar.Text == "" || txtEkstra.Text == "")
             {
                 MessageBox.Show("Gider Kaydedilemedi.\nBoş alanları doldurunuz!", "Bilgi Ekranı", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -66,7 +66,7 @@ namespace Ticari_Otamasyon
                 save.Parameters.AddWithValue("@k7", decimal.Parse(txtMaaslar.Text));
                 save.Parameters.AddWithValue("@k8", decimal.Parse(txtEkstra.Text));
                 save.Parameters.AddWithValue("@k9", rchtNotlar.Text);
-                save.ExecuteNonQuery(); 
+                save.ExecuteNonQuery();
                 bgl.baglanti().Close();
                 MessageBox.Show("Gider sisteme eklendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
@@ -76,35 +76,43 @@ namespace Ticari_Otamasyon
 
         private void btnSil_Click(object sender, EventArgs e)
         {
-            try
+            if (txtId.Text!="")
             {
-                DialogResult secim = MessageBox.Show("Silmek istediğinize Eminmisiniz", "Uyarı", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
-                if (secim == DialogResult.Yes)
+                try
                 {
-                    SqlCommand delete = new SqlCommand("DELETE FROM TBL_GIDERLER WHERE ID=@s1", bgl.baglanti());
-                    delete.Parameters.AddWithValue("@s1", txtId.Text);
-                    delete.ExecuteNonQuery();
-                    bgl.baglanti().Close();
-                    MessageBox.Show("Gider silindi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Error);
-
+                    DialogResult secim = MessageBox.Show("Silmek istediğinize Eminmisiniz", "Uyarı", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                    if (secim == DialogResult.Yes)
+                    {
+                        SqlCommand delete = new SqlCommand("DELETE FROM TBL_GIDERLER WHERE ID=@s1", bgl.baglanti());
+                        delete.Parameters.AddWithValue("@s1", txtId.Text);
+                        delete.ExecuteNonQuery();
+                        bgl.baglanti().Close();
+                        MessageBox.Show("Gider silindi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Silme İşlemi İptal Edilmiştir.", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        GiderListesi();
+                        Temizle();
+                    }
                 }
-                else
+                catch
                 {
-                    MessageBox.Show("Silme İşlemi İptal Edilmiştir.", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    GiderListesi();
+
+                    MessageBox.Show("Bir Hata Meydana Geldi.Lütfen Silmek İstediğiniz Stüna İki Kere Tıklayarak Tekrar Deneyiniz.!", "UYARI", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                finally
+                {
                     Temizle();
                 }
+                GiderListesi();
             }
-            catch
+            else
             {
+                MessageBox.Show("Lütfen Silmek Sitediğiniz Gideri Seçiniz", "UYARI", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
-                MessageBox.Show("Bir Hata Meydana Geldi.Lütfen Silmek İstediğiniz Stüna İki Kere Tıklayarak Tekrar Deneyiniz.!", "UYARI", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            finally
-            {
-                Temizle();
-            }
-            GiderListesi();
+
         }
 
         private void btnTemizle_Click(object sender, EventArgs e)
@@ -112,7 +120,35 @@ namespace Ticari_Otamasyon
             Temizle();
         }
 
-        private void gridView1_FocusedRowChanged(object sender, DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventArgs e)
+        private void BtnGuncelle_Click(object sender, EventArgs e)
+        {
+            if (txtId.Text!="")
+            {
+                SqlCommand update = new SqlCommand("UPDATE TBL_GIDERLER SET  AY=@u1,YIL=@u2,ELEKTIRIK=@u3,DOGALGAZ=@u4,SU=@u5,INTERNET=@u6,MAASLAR=@u7,EKSTRA=@u8,NOTLAR=@u9 WHERE ID=@u10", bgl.baglanti());
+                update.Parameters.AddWithValue("@u1", cmbAy.Text);
+                update.Parameters.AddWithValue("@u2", cmbYil.Text);
+                update.Parameters.AddWithValue("@u3", decimal.Parse(txtElektirik.Text));
+                update.Parameters.AddWithValue("@u4", decimal.Parse(txtDogalgaz.Text));
+                update.Parameters.AddWithValue("@u5", decimal.Parse(txtSu.Text));
+                update.Parameters.AddWithValue("@u6", decimal.Parse(txtInternet.Text));
+                update.Parameters.AddWithValue("@u7", decimal.Parse(txtMaaslar.Text));
+                update.Parameters.AddWithValue("@u8", decimal.Parse(txtEkstra.Text));
+                update.Parameters.AddWithValue("@u9", rchtNotlar.Text);
+                update.Parameters.AddWithValue("@u10", txtId.Text);
+                update.ExecuteNonQuery();
+                bgl.baglanti().Close();
+                MessageBox.Show("Gider Bilgisi Güncellendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                GiderListesi();
+                Temizle();
+            }
+            else
+            {
+                MessageBox.Show("Lütfen Bir Gider Seçiniz", "UYARI", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            
+        }
+
+        private void GridView1_FocusedRowChanged_1(object sender, DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventArgs e)
         {
             DataRow dr = gridView1.GetDataRow(gridView1.FocusedRowHandle);
             txtId.Text = dr["ID"].ToString();
@@ -125,26 +161,6 @@ namespace Ticari_Otamasyon
             txtMaaslar.Text = dr["MAASLAR"].ToString();
             txtEkstra.Text = dr["EKSTRA"].ToString();
             rchtNotlar.Text = dr["NOTLAR"].ToString();
-        }
-
-        private void BtnGuncelle_Click(object sender, EventArgs e)
-        {
-            SqlCommand update = new SqlCommand("UPDATE TBL_GIDERLER SET  AY=@u1,YIL=@u2,ELEKTIRIK=@u3,DOGALGAZ=@u4,SU=@u5,INTERNET=@u6,MAASLAR=@u7,EKSTRA=@u8,NOTLAR=@u9 WHERE ID=@u10", bgl.baglanti());
-            update.Parameters.AddWithValue("@u1", cmbAy.Text);
-            update.Parameters.AddWithValue("@u2", cmbYil.Text);
-            update.Parameters.AddWithValue("@u3", decimal.Parse(txtElektirik.Text));
-            update.Parameters.AddWithValue("@u4", decimal.Parse(txtDogalgaz.Text));
-            update.Parameters.AddWithValue("@u5", decimal.Parse(txtSu.Text));
-            update.Parameters.AddWithValue("@u6", decimal.Parse(txtInternet.Text));
-            update.Parameters.AddWithValue("@u7", decimal.Parse(txtMaaslar.Text));
-            update.Parameters.AddWithValue("@u8", decimal.Parse(txtEkstra.Text));
-            update.Parameters.AddWithValue("@u9", rchtNotlar.Text);
-            update.Parameters.AddWithValue("@u10", txtId.Text);
-            update.ExecuteNonQuery();
-            bgl.baglanti().Close();
-            MessageBox.Show("Gider Bilgisi Güncellendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            GiderListesi();
-            Temizle();
         }
     }
 }

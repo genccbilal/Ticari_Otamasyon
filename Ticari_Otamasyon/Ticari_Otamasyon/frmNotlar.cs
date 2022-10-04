@@ -48,50 +48,68 @@ namespace Ticari_Otamasyon
 
         private void btnKaydet_Click(object sender, EventArgs e)
         {
-            SqlCommand save = new SqlCommand("INSERT INTO TBL_NOTLAR (TARIH,SAAT,BASLIK,DETAY,OLUSTURAN,HITAP) VALUES (@s1,@s2,@s3,@s4,@s5,@s6)", bgl.baglanti());
-            save.Parameters.AddWithValue("@s1",mskTarih.Text);
-            save.Parameters.AddWithValue("@s2",mskSaat.Text);
-            save.Parameters.AddWithValue("@s3",txtBaslık.Text);
-            save.Parameters.AddWithValue("@s4",rchtDetay.Text);
-            save.Parameters.AddWithValue("@s5",txtOlusturan.Text);
-            save.Parameters.AddWithValue("@s6",txtHitap.Text);
-            save.ExecuteNonQuery();
-            bgl.baglanti().Close();
-            MessageBox.Show("Not sisteme eklendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            NotListele();
-            Temizle();
+
+            if (txtOlusturan.Text !="" && txtBaslık.Text !="" && rchtDetay.Text!="")
+            {
+                SqlCommand save = new SqlCommand("INSERT INTO TBL_NOTLAR (TARIH,SAAT,BASLIK,DETAY,OLUSTURAN,HITAP) VALUES (@s1,@s2,@s3,@s4,@s5,@s6)", bgl.baglanti());
+                save.Parameters.AddWithValue("@s1", mskTarih.Text);
+                save.Parameters.AddWithValue("@s2", mskSaat.Text);
+                save.Parameters.AddWithValue("@s3", txtBaslık.Text);
+                save.Parameters.AddWithValue("@s4", rchtDetay.Text);
+                save.Parameters.AddWithValue("@s5", txtOlusturan.Text);
+                save.Parameters.AddWithValue("@s6", txtHitap.Text);
+                save.ExecuteNonQuery();
+                bgl.baglanti().Close();
+                MessageBox.Show("Not sisteme eklendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                NotListele();
+                Temizle();
+            }
+            else
+            {
+                MessageBox.Show("Not Kaydedilemedi.\nBoş alanları doldurunuz!", "Bilgi Ekranı", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            
         }
 
 
         private void btnSil_Click(object sender, EventArgs e)
         {
-            try
+            if (txtId.Text!="")
             {
-                DialogResult secim = MessageBox.Show("Silmek İstediğinize Emin misiniz ? ", "Uyarı", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
-                if (secim == DialogResult.Yes)
+                try
                 {
-                    SqlCommand Delete = new SqlCommand("DELETE FROM TBL_NOTLAR WHERE NOTID=@d1", bgl.baglanti());
-                    Delete.Parameters.AddWithValue("@d1", txtId.Text);
-                    Delete.ExecuteNonQuery();
-                    bgl.baglanti().Close();
+                    DialogResult secim = MessageBox.Show("Silmek İstediğinize Emin misiniz ? ", "Uyarı", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+                    if (secim == DialogResult.Yes)
+                    {
+                        SqlCommand Delete = new SqlCommand("DELETE FROM TBL_NOTLAR WHERE NOTID=@d1", bgl.baglanti());
+                        Delete.Parameters.AddWithValue("@d1", txtId.Text);
+                        Delete.ExecuteNonQuery();
+                        bgl.baglanti().Close();
+                        MessageBox.Show("Not silindi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Silme İşlemi İptal Edilmiştir.", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        NotListele();
+                        Temizle();
+                    }
+                }
+                catch
+                {
+                    MessageBox.Show("Bir Hata Meydana Geldi.Lütfen Silmek İstediğiniz Stüna İki Kere Tıklayarak Tekrar Deneyiniz.!", "UYARI", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                finally
+                {
                     Temizle();
                 }
-                else
-                {
-                    MessageBox.Show("Silme İşlemi İptal Edilmiştir.", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    NotListele();
-                    Temizle();
-                }
+                NotListele();
             }
-            catch 
+            else
             {
-                MessageBox.Show("Bir Hata Meydana Geldi.Lütfen Silmek İstediğiniz Stüna İki Kere Tıklayarak Tekrar Deneyiniz.!", "UYARI", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Lütfen Silmek Sitediğiniz Notu Seçiniz", "UYARI", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
             }
-            finally
-            {
-                Temizle();
-            }
-            NotListele();
+
         }
 
         private void btnTemizle_Click(object sender, EventArgs e)
@@ -101,22 +119,37 @@ namespace Ticari_Otamasyon
 
         private void BtnGuncelle_Click(object sender, EventArgs e)
         {
-            SqlCommand Update = new SqlCommand("UPDATE TBL_NOTLAR SET TARIH=@u1,SAAT=@u2,OLUSTURAN=@u3,HITAP=@u4,BASLIK=@u5,DETAY=@u6 WHERE NOTID=@u7", bgl.baglanti());
-            Update.Parameters.AddWithValue("@u1",mskTarih.Text);
-            Update.Parameters.AddWithValue("@u2",mskSaat.Text);
-            Update.Parameters.AddWithValue("@u3",txtOlusturan.Text);
-            Update.Parameters.AddWithValue("@u4",txtHitap.Text);
-            Update.Parameters.AddWithValue("@u5",txtBaslık.Text);
-            Update.Parameters.AddWithValue("@u6",rchtDetay.Text);
-            Update.Parameters.AddWithValue("@u7", txtId.Text);
-            Update.ExecuteNonQuery();
-            bgl.baglanti().Close();
-            MessageBox.Show("Not Bilgisi Güncellendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            if (txtId.Text!="")
+            {
+                SqlCommand Update = new SqlCommand("UPDATE TBL_NOTLAR SET TARIH=@u1,SAAT=@u2,OLUSTURAN=@u3,HITAP=@u4,BASLIK=@u5,DETAY=@u6 WHERE NOTID=@u7", bgl.baglanti());
+                Update.Parameters.AddWithValue("@u1", mskTarih.Text);
+                Update.Parameters.AddWithValue("@u2", mskSaat.Text);
+                Update.Parameters.AddWithValue("@u3", txtOlusturan.Text);
+                Update.Parameters.AddWithValue("@u4", txtHitap.Text);
+                Update.Parameters.AddWithValue("@u5", txtBaslık.Text);
+                Update.Parameters.AddWithValue("@u6", rchtDetay.Text);
+                Update.Parameters.AddWithValue("@u7", txtId.Text);
+                Update.ExecuteNonQuery();
+                bgl.baglanti().Close();
+                MessageBox.Show("Not Bilgisi Güncellendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                NotListele();
+                Temizle();
+            }
+            else
+            {
+                MessageBox.Show("Lütfen Bir Not Seçiniz", "UYARI", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+            }
+
+        }
+
+        private void frmNotlar_MouseHover(object sender, EventArgs e)
+        {
             NotListele();
             Temizle();
         }
 
-        private void gridView1_FocusedRowChanged(object sender, DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventArgs e)
+        private void GridView1_FocusedRowChanged_1(object sender, DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventArgs e)
         {
             DataRow dr = gridView1.GetDataRow(gridView1.FocusedRowHandle);
             txtId.Text = dr["NOTID"].ToString();
@@ -128,7 +161,7 @@ namespace Ticari_Otamasyon
             rchtDetay.Text = dr["DETAY"].ToString();
         }
 
-        private void gridView1_DoubleClick(object sender, EventArgs e)
+        private void GridView1_DoubleClick(object sender, EventArgs e)
         {
             //mesajı ayrı ekranda görüntüleme ve durumu okundu yapma 
             frmNotDetay frm = new frmNotDetay();
@@ -145,12 +178,6 @@ namespace Ticari_Otamasyon
                 bgl.baglanti().Close();
             }
             frm.Show();
-        }
-
-        private void frmNotlar_MouseHover(object sender, EventArgs e)
-        {
-            NotListele();
-            Temizle();
         }
     }
 }

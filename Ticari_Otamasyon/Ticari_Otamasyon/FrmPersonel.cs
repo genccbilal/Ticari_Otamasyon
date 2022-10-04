@@ -60,21 +60,6 @@ namespace Ticari_Otamasyon
             IlListesi();
         }
 
-        private void gridView1_FocusedRowChanged(object sender, DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventArgs e)
-        {
-            DataRow dr = gridView1.GetDataRow(gridView1.FocusedRowHandle);
-            txtId.Text = dr["ID"].ToString();
-            txtAd.Text = dr["AD"].ToString();
-            txtSoyad.Text = dr["SOYAD"].ToString();
-            mskTelefon1.Text = dr["TELEFON"].ToString();
-            mskTc.Text = dr["TC"].ToString();
-            txtMail.Text = dr["MAIL"].ToString();
-            cmbIl.Text = dr["IL"].ToString();
-            cmbIlce.Text = dr["ILCE"].ToString();
-            rchtAdres.Text = dr["ADRES"].ToString();
-            txtGörev.Text = dr["GOREV"].ToString();
-        }
-
         private void btnTemizle_Click(object sender, EventArgs e)
         {
             Temizle();        
@@ -82,72 +67,97 @@ namespace Ticari_Otamasyon
 
         private void btnKaydet_Click(object sender, EventArgs e)
         {
-            SqlCommand save = new SqlCommand("INSERT INTO TBL_PERSONELLER (AD,SOYAD,TELEFON,TC,MAIL,IL,ILCE,ADRES,GOREV) VALUES (@k1,@k2,@k3,@k4,@k5,@k6,@k7,@k8,@k9)", bgl.baglanti());
-            save.Parameters.AddWithValue("@k1", txtAd.Text);
-            save.Parameters.AddWithValue("@k2", txtSoyad.Text);
-            save.Parameters.AddWithValue("@k3", mskTelefon1.Text);
-            save.Parameters.AddWithValue("@k4", mskTc.Text);
-            save.Parameters.AddWithValue("@k5", txtMail.Text);
-            save.Parameters.AddWithValue("@k6", cmbIl.Text);
-            save.Parameters.AddWithValue("@k7", cmbIlce.Text);
-            save.Parameters.AddWithValue("@k8", rchtAdres.Text);
-            save.Parameters.AddWithValue("@k9", txtGörev.Text);
-            save.ExecuteNonQuery();
-            bgl.baglanti().Close();
-            MessageBox.Show("Personel sisteme eklendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            personelListesi();
-            Temizle();
+            if (txtAd.Text !="" && txtSoyad.Text != "" && mskTc.Text != "")
+            {
+                SqlCommand save = new SqlCommand("INSERT INTO TBL_PERSONELLER (AD,SOYAD,TELEFON,TC,MAIL,IL,ILCE,ADRES,GOREV) VALUES (@k1,@k2,@k3,@k4,@k5,@k6,@k7,@k8,@k9)", bgl.baglanti());
+                save.Parameters.AddWithValue("@k1", txtAd.Text);
+                save.Parameters.AddWithValue("@k2", txtSoyad.Text);
+                save.Parameters.AddWithValue("@k3", mskTelefon1.Text);
+                save.Parameters.AddWithValue("@k4", mskTc.Text);
+                save.Parameters.AddWithValue("@k5", txtMail.Text);
+                save.Parameters.AddWithValue("@k6", cmbIl.Text);
+                save.Parameters.AddWithValue("@k7", cmbIlce.Text);
+                save.Parameters.AddWithValue("@k8", rchtAdres.Text);
+                save.Parameters.AddWithValue("@k9", txtGörev.Text);
+                save.ExecuteNonQuery();
+                bgl.baglanti().Close();
+                MessageBox.Show("Personel sisteme eklendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                personelListesi();
+                Temizle();
+            }
+            else
+            {
+                MessageBox.Show("Müşteri Kaydedilemedi.\nBoş alanları doldurunuz!", "Bilgi Ekranı", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+            
         }
 
         private void btnSil_Click(object sender, EventArgs e)
         {
-            try
+            if (txtId.Text!="")
             {
-                DialogResult secim = MessageBox.Show("Silmek Sitediğinize Eminmisiniz", "Uyarı", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
-                if (secim == DialogResult.Yes)
+                try
                 {
-                    SqlCommand delete = new SqlCommand("DELETE FROM TBL_PERSONELLER WHERE ID=@s1", bgl.baglanti());
-                    delete.Parameters.AddWithValue("@s1", txtId.Text);
-                    delete.ExecuteNonQuery();
-                    bgl.baglanti().Close();
-                    MessageBox.Show("Personel silindi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    DialogResult secim = MessageBox.Show("Silmek İstediğinize Eminmisiniz", "Uyarı", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+                    if (secim == DialogResult.Yes)
+                    {
+                        SqlCommand delete = new SqlCommand("DELETE FROM TBL_PERSONELLER WHERE ID=@s1", bgl.baglanti());
+                        delete.Parameters.AddWithValue("@s1", txtId.Text);
+                        delete.ExecuteNonQuery();
+                        bgl.baglanti().Close();
+                        MessageBox.Show("Personel silindi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Silme İşlemi İptal Edilmiştir.", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        personelListesi();
+                        Temizle();
+                    }
                 }
-                else
+                catch
                 {
-                    MessageBox.Show("Silme İşlemi İptal Edilmiştir.", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    personelListesi();
+                    MessageBox.Show("Bir Hata Meydana Geldi.Lütfen Silmek İstediğiniz Stüna İki Kere Tıklayarak Tekrar Deneyiniz.!", "UYARI", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                finally
+                {
                     Temizle();
                 }
+                personelListesi();
             }
-            catch
+            else
             {
-                MessageBox.Show("Bir Hata Meydana Geldi.Lütfen Silmek İstediğiniz Stüna İki Kere Tıklayarak Tekrar Deneyiniz.!", "UYARI", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Lütfen Silmek Sitediğiniz Personeli Seçiniz", "UYARI", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            finally
-            {
-                Temizle();
-            }
-            personelListesi();
+            
         }
 
         private void BtnGuncelle_Click(object sender, EventArgs e)
         {
-            SqlCommand update = new SqlCommand("UPDATE TBL_PERSONELLER SET  AD=@u1,SOYAD=@u2,TELEFON=@u3,TC=@u4,MAIL=@u5,IL=@u6,ILCE=@u7,ADRES=@u8,GOREV=@u9 WHERE ID=@u10", bgl.baglanti());
-            update.Parameters.AddWithValue("@u1", txtAd.Text);
-            update.Parameters.AddWithValue("@u2", txtSoyad.Text);
-            update.Parameters.AddWithValue("@u3", mskTelefon1.Text);
-            update.Parameters.AddWithValue("@u4", mskTc.Text);
-            update.Parameters.AddWithValue("@u5", txtMail.Text);
-            update.Parameters.AddWithValue("@u6", cmbIl.Text);
-            update.Parameters.AddWithValue("@u7", cmbIlce.Text);
-            update.Parameters.AddWithValue("@u8", rchtAdres.Text);
-            update.Parameters.AddWithValue("@u9", txtGörev.Text);
-            update.Parameters.AddWithValue("@u10", txtId.Text);
-            update.ExecuteNonQuery();
-            bgl.baglanti().Close();
-            MessageBox.Show("Personel Bilgisi Güncellendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            personelListesi();
-            Temizle();
+            if (txtId.Text!="")
+            {
+                SqlCommand update = new SqlCommand("UPDATE TBL_PERSONELLER SET  AD=@u1,SOYAD=@u2,TELEFON=@u3,TC=@u4,MAIL=@u5,IL=@u6,ILCE=@u7,ADRES=@u8,GOREV=@u9 WHERE ID=@u10", bgl.baglanti());
+                update.Parameters.AddWithValue("@u1", txtAd.Text);
+                update.Parameters.AddWithValue("@u2", txtSoyad.Text);
+                update.Parameters.AddWithValue("@u3", mskTelefon1.Text);
+                update.Parameters.AddWithValue("@u4", mskTc.Text);
+                update.Parameters.AddWithValue("@u5", txtMail.Text);
+                update.Parameters.AddWithValue("@u6", cmbIl.Text);
+                update.Parameters.AddWithValue("@u7", cmbIlce.Text);
+                update.Parameters.AddWithValue("@u8", rchtAdres.Text);
+                update.Parameters.AddWithValue("@u9", txtGörev.Text);
+                update.Parameters.AddWithValue("@u10", txtId.Text);
+                update.ExecuteNonQuery();
+                bgl.baglanti().Close();
+                MessageBox.Show("Personel Bilgisi Güncellendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                personelListesi();
+                Temizle();
+            }
+            else
+            {
+                MessageBox.Show("Lütfen Bir Personel Seçiniz", "UYARI", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            
         }
 
         private void cmbIl_SelectedIndexChanged(object sender, EventArgs e)
@@ -162,6 +172,21 @@ namespace Ticari_Otamasyon
                 cmbIlce.Properties.Items.Add(dr2[0]);
             }
             bgl.baglanti().Close();
+        }
+
+        private void GridView1_FocusedRowChanged_1(object sender, DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventArgs e)
+        {
+            DataRow dr = gridView1.GetDataRow(gridView1.FocusedRowHandle);
+            txtId.Text = dr["ID"].ToString();
+            txtAd.Text = dr["AD"].ToString();
+            txtSoyad.Text = dr["SOYAD"].ToString();
+            mskTelefon1.Text = dr["TELEFON"].ToString();
+            mskTc.Text = dr["TC"].ToString();
+            txtMail.Text = dr["MAIL"].ToString();
+            cmbIl.Text = dr["IL"].ToString();
+            cmbIlce.Text = dr["ILCE"].ToString();
+            rchtAdres.Text = dr["ADRES"].ToString();
+            txtGörev.Text = dr["GOREV"].ToString();
         }
     }
 }

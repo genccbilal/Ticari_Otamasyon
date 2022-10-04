@@ -77,25 +77,109 @@ namespace Ticari_Otamasyon
 
         private void btnKaydet_Click(object sender, EventArgs e)
         {
-            SqlCommand save = new SqlCommand("INSERT INTO TBL_MUSTERILER (AD,SOYAD,TELEFON,TELEFON2,TC,MAIL,IL,ILCE,ADRES,VERGIDAIRE) VALUES (@k1,@k2,@k3,@k4,@k5,@k6,@k7,@k8,@k9,@k10)", bgl.baglanti());
-            save.Parameters.AddWithValue("@k1", txtAd.Text);
-            save.Parameters.AddWithValue("@k2", txtSoyad.Text);
-            save.Parameters.AddWithValue("@k3", mskTelefon1.Text);
-            save.Parameters.AddWithValue("@k4", mskTelefon2.Text);
-            save.Parameters.AddWithValue("@k5", mskTc.Text);
-            save.Parameters.AddWithValue("@k6", txtMail.Text);
-            save.Parameters.AddWithValue("@k7", cmbIl.Text);
-            save.Parameters.AddWithValue("@k8", cmbIlce.Text);
-            save.Parameters.AddWithValue("@k9", rchtAdres.Text);
-            save.Parameters.AddWithValue("@k10", txtVergiDairesi.Text);
-            save.ExecuteNonQuery();
-            bgl.baglanti().Close();
-            MessageBox.Show("Müsteri sisteme eklendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            Listele();
+            if (mskTc.Text!="" && txtAd.Text!="" && txtSoyad.Text!="")
+            {
+                SqlCommand save = new SqlCommand("INSERT INTO TBL_MUSTERILER (AD,SOYAD,TELEFON,TELEFON2,TC,MAIL,IL,ILCE,ADRES,VERGIDAIRE) VALUES (@k1,@k2,@k3,@k4,@k5,@k6,@k7,@k8,@k9,@k10)", bgl.baglanti());
+                save.Parameters.AddWithValue("@k1", txtAd.Text);
+                save.Parameters.AddWithValue("@k2", txtSoyad.Text);
+                save.Parameters.AddWithValue("@k3", mskTelefon1.Text);
+                save.Parameters.AddWithValue("@k4", mskTelefon2.Text);
+                save.Parameters.AddWithValue("@k5", mskTc.Text);
+                save.Parameters.AddWithValue("@k6", txtMail.Text);
+                save.Parameters.AddWithValue("@k7", cmbIl.Text);
+                save.Parameters.AddWithValue("@k8", cmbIlce.Text);
+                save.Parameters.AddWithValue("@k9", rchtAdres.Text);
+                save.Parameters.AddWithValue("@k10", txtVergiDairesi.Text);
+                save.ExecuteNonQuery();
+                bgl.baglanti().Close();
+                MessageBox.Show("Müsteri sisteme eklendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                Listele();
+                Temizle();
+            }
+            else
+            {
+                MessageBox.Show("Müşteri Kaydedilemedi.\nBoş alanları doldurunuz!", "Bilgi Ekranı", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+                
+            
+        }
+
+        private void btnSil_Click(object sender, EventArgs e)
+        {
+
+            if (txtId.Text!="")
+            {
+                try
+                {
+                    DialogResult secim = MessageBox.Show("Silmek İstediğinize Emin misiniz ?", "Uyarı", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+                    if (secim == DialogResult.Yes)
+                    {
+                        SqlCommand delete = new SqlCommand("DELETE FROM TBL_MUSTERILER WHERE ID=@s1", bgl.baglanti());
+                        delete.Parameters.AddWithValue("@s1", txtId.Text);
+                        delete.ExecuteNonQuery();
+                        bgl.baglanti().Close();
+                        MessageBox.Show("Ürün silindi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Silme İşlemi İptal Edilmiştir.", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        Listele();
+                        Temizle();
+                    }
+                }
+                catch //Hata Alınırsa Gelicek Olan Cevap
+                {
+                    MessageBox.Show("Bir Hata Meydana Geldi.Lütfen Silmek İstediğiniz Stüna İki Kere Tıklayarak Tekrar Deneyiniz.!", "UYARI", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                finally // Gelen Hatadan Sonra Yapmak İstediğiniz İşlem
+                {
+                    Temizle();
+                }
+                Listele();
+            }
+            else
+            {
+                MessageBox.Show("Lütfen Silmek Sitediğiniz Müşteriyi Seçiniz", "UYARI", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            
+        }
+
+        private void BtnGuncelle_Click(object sender, EventArgs e)
+        {
+            if (txtId.Text!="")
+            {
+                SqlCommand update = new SqlCommand("UPDATE TBL_MUSTERILER SET AD=@u1,SOYAD=@u2,TELEFON=@u3,TELEFON2=@u4,TC=@u5,MAIL=@u6,IL=@u7,ILCE=@u8,ADRES=@u9,VERGIDAIRE=@u10 WHERE ID=@u11", bgl.baglanti());
+                update.Parameters.AddWithValue("@u1", txtAd.Text); ;
+                update.Parameters.AddWithValue("@u2", txtSoyad.Text);
+                update.Parameters.AddWithValue("@u3", mskTelefon1.Text);
+                update.Parameters.AddWithValue("@u4", mskTelefon2.Text);
+                update.Parameters.AddWithValue("@u5", mskTc.Text);
+                update.Parameters.AddWithValue("@u6", txtMail.Text);
+                update.Parameters.AddWithValue("@u7", cmbIl.Text);
+                update.Parameters.AddWithValue("@u8", cmbIlce.Text);
+                update.Parameters.AddWithValue("@u9", rchtAdres.Text);
+                update.Parameters.AddWithValue("@u10", txtVergiDairesi.Text);
+                update.Parameters.AddWithValue("@u11", txtId.Text);
+                update.ExecuteNonQuery();
+                bgl.baglanti().Close();
+                MessageBox.Show("Müşteri Bilgisi Güncellendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                Listele();
+                Temizle();
+            }
+            else
+            {
+                MessageBox.Show("Lütfen Bir Müşteri Seçiniz", "UYARI", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+
+            
+        }
+
+        private void btnTemizle_Click(object sender, EventArgs e)
+        {
             Temizle();
         }
 
-        private void gridView1_FocusedRowChanged(object sender, DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventArgs e)
+        private void GridView1_FocusedRowChanged_1(object sender, DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventArgs e)
         {
             DataRow dr = gridView1.GetDataRow(gridView1.FocusedRowHandle);
             txtId.Text = dr["ID"].ToString();
@@ -109,63 +193,6 @@ namespace Ticari_Otamasyon
             cmbIlce.Text = dr["ILCE"].ToString();
             rchtAdres.Text = dr["ADRES"].ToString();
             txtVergiDairesi.Text = dr["VERGIDAIRE"].ToString();
-        }
-
-        private void btnSil_Click(object sender, EventArgs e)
-        {
-            try // Çalışan Kod Satırı Buraya Yazın
-            {
-                DialogResult secim = MessageBox.Show("Silmek İstediğinize Emin misiniz ?", "Uyarı", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
-                if (secim == DialogResult.Yes)
-                {
-                    SqlCommand delete = new SqlCommand("DELETE FROM TBL_MUSTERILER WHERE ID=@s1", bgl.baglanti());
-                    delete.Parameters.AddWithValue("@s1", txtId.Text);
-                    delete.ExecuteNonQuery();
-                    bgl.baglanti().Close();
-                    MessageBox.Show("Ürün silindi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-                else
-                {
-                    MessageBox.Show("Silme İşlemi İptal Edilmiştir.", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    Listele();
-                    Temizle();
-                }
-            }
-            catch //Hata Alınırsa Gelicek Olan Cevap
-            {
-                MessageBox.Show("Bir Hata Meydana Geldi.Lütfen Silmek İstediğiniz Stüna İki Kere Tıklayarak Tekrar Deneyiniz.!", "UYARI", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally // Gelen Hatadan Sonra Yapmak İstediğiniz İşlem
-            {
-                Temizle();
-            }
-            Listele();
-        }
-
-        private void BtnGuncelle_Click(object sender, EventArgs e)
-        {
-            SqlCommand update = new SqlCommand("UPDATE TBL_MUSTERILER SET AD=@u1,SOYAD=@u2,TELEFON=@u3,TELEFON2=@u4,TC=@u5,MAIL=@u6,IL=@u7,ILCE=@u8,ADRES=@u9,VERGIDAIRE=@u10 WHERE ID=@u11", bgl.baglanti());
-            update.Parameters.AddWithValue("@u1", txtAd.Text); ;
-            update.Parameters.AddWithValue("@u2", txtSoyad.Text);
-            update.Parameters.AddWithValue("@u3", mskTelefon1.Text);
-            update.Parameters.AddWithValue("@u4", mskTelefon2.Text);
-            update.Parameters.AddWithValue("@u5", mskTc.Text);
-            update.Parameters.AddWithValue("@u6", txtMail.Text);
-            update.Parameters.AddWithValue("@u7", cmbIl.Text);
-            update.Parameters.AddWithValue("@u8", cmbIlce.Text);
-            update.Parameters.AddWithValue("@u9", rchtAdres.Text);
-            update.Parameters.AddWithValue("@u10", txtVergiDairesi.Text);
-            update.Parameters.AddWithValue("@u11", txtId.Text); 
-            update.ExecuteNonQuery();
-            bgl.baglanti().Close();
-            MessageBox.Show("Müşteri Bilgisi Güncellendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            Listele();
-            Temizle();
-        }
-
-        private void btnTemizle_Click(object sender, EventArgs e)
-        {
-            Temizle();
         }
     }
 }

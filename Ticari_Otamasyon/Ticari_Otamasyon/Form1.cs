@@ -258,5 +258,10 @@ namespace Ticari_Otamasyon
             frmA.MdiParent = this;
             frmA.Show();
         }
+
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

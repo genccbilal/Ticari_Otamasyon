@@ -76,23 +76,32 @@ namespace Ticari_Otamasyon
 
         private void btnKaydet_Click(object sender, EventArgs e)
         {
-            SqlCommand save = new SqlCommand("INSERT INTO TBL_BANKALAR (BANKAADI,IL,ILCE,SUBE,IBAN,HESAPNO,YETKILI,TELEFON,TARIH,HESAPTURU,FIRMAID) VALUES (@k1,@k2,@k3,@k4,@k5,@k6,@k7,@k8,@k9,@k10,@k11)", bgl.baglanti());
-            save.Parameters.AddWithValue("@k1", txtBankaAd.Text);
-            save.Parameters.AddWithValue("@k2", cmbIl.Text);
-            save.Parameters.AddWithValue("@k3", cmbIlce.Text);
-            save.Parameters.AddWithValue("@k4", txtSube.Text);
-            save.Parameters.AddWithValue("@k5", mskIban.Text);
-            save.Parameters.AddWithValue("@k6", txtHesapNo.Text);
-            save.Parameters.AddWithValue("@k7", txtYetkili.Text);
-            save.Parameters.AddWithValue("@k8", mskTelefon.Text);
-            save.Parameters.AddWithValue("@k9", mskTarih.Text);
-            save.Parameters.AddWithValue("@k10", txtHesapTuru.Text);
-            save.Parameters.AddWithValue("@k11", lookUpEdit1.EditValue);
-            save.ExecuteNonQuery();
-            bgl.baglanti().Close();
-            BankaListesi();
-            Temizle();
-            MessageBox.Show("Banka Bilgisi Sisteme Eklendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            if (txtBankaAd.Text!="" && mskIban.Text != ""&& txtHesapTuru.Text != "" && lookUpEdit1.Text != "")
+            {
+                SqlCommand save = new SqlCommand("INSERT INTO TBL_BANKALAR (BANKAADI,IL,ILCE,SUBE,IBAN,HESAPNO,YETKILI,TELEFON,TARIH,HESAPTURU,FIRMAID) VALUES (@k1,@k2,@k3,@k4,@k5,@k6,@k7,@k8,@k9,@k10,@k11)", bgl.baglanti());
+                save.Parameters.AddWithValue("@k1", txtBankaAd.Text);
+                save.Parameters.AddWithValue("@k2", cmbIl.Text);
+                save.Parameters.AddWithValue("@k3", cmbIlce.Text);
+                save.Parameters.AddWithValue("@k4", txtSube.Text);
+                save.Parameters.AddWithValue("@k5", mskIban.Text);
+                save.Parameters.AddWithValue("@k6", txtHesapNo.Text);
+                save.Parameters.AddWithValue("@k7", txtYetkili.Text);
+                save.Parameters.AddWithValue("@k8", mskTelefon.Text);
+                save.Parameters.AddWithValue("@k9", mskTarih.Text);
+                save.Parameters.AddWithValue("@k10", txtHesapTuru.Text);
+                save.Parameters.AddWithValue("@k11", lookUpEdit1.EditValue);
+                save.ExecuteNonQuery();
+                bgl.baglanti().Close();
+                BankaListesi();
+                Temizle();
+                MessageBox.Show("Banka Bilgisi Sisteme Eklendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                MessageBox.Show("Banka Kaydedilemedi.\nBoş alanları doldurunuz!", "Bilgi Ekranı", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+            
 
         }
 

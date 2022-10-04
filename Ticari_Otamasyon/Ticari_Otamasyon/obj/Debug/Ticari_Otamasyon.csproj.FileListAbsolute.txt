@@ -396,8 +396,6 @@ C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Tica
 C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.pdb
 C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\RdlCompile.cache
 C:\Users\Bİlal GENÇ\OneDrive\Masaüstü\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\RdlCompile.compiled
-C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\RdlCompile.cache
-C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\RdlCompile.compiled
 C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\Ticari_Otamasyon.frmStoklar.resources
 C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Charts.v22.1.Core.dll
 C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\DevExpress.Utils.v22.1.UI.dll
@@ -506,3 +504,5 @@ C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\Dev
 C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\de\DevExpress.Dialogs.v22.1.Core.resources.dll
 C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\es\DevExpress.Dialogs.v22.1.Core.resources.dll
 C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\bin\Debug\ja\DevExpress.Dialogs.v22.1.Core.resources.dll
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\RdlCompile.cache
+C:\xampp\htdocs\Ticari_Otamasyon\Ticari_Otamasyon\Ticari_Otamasyon\obj\Debug\RdlCompile.compiled

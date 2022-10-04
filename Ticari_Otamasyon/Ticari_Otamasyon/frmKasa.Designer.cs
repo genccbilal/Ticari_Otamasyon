@@ -57,6 +57,8 @@ namespace Ticari_Otamasyon
             this.chartControl1 = new DevExpress.XtraCharts.ChartControl();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.xtraTabPage1 = new DevExpress.XtraTab.XtraTabPage();
+            this.groupControl13 = new DevExpress.XtraEditors.GroupControl();
+            this.groupControl12 = new DevExpress.XtraEditors.GroupControl();
             this.gridControl3 = new DevExpress.XtraGrid.GridControl();
             this.gridView3 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.groupControl9 = new DevExpress.XtraEditors.GroupControl();
@@ -78,8 +80,6 @@ namespace Ticari_Otamasyon
             this.lblMusteriSayisi = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.xtraTabControl1 = new DevExpress.XtraTab.XtraTabControl();
-            this.groupControl12 = new DevExpress.XtraEditors.GroupControl();
-            this.groupControl13 = new DevExpress.XtraEditors.GroupControl();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
             this.groupControl2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
@@ -103,6 +103,10 @@ namespace Ticari_Otamasyon
             ((System.ComponentModel.ISupportInitialize)(xyDiagram2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(series2)).BeginInit();
             this.xtraTabPage1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl13)).BeginInit();
+            this.groupControl13.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl12)).BeginInit();
+            this.groupControl12.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl9)).BeginInit();
@@ -119,10 +123,6 @@ namespace Ticari_Otamasyon
             this.groupControl4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).BeginInit();
             this.xtraTabControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl12)).BeginInit();
-            this.groupControl12.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl13)).BeginInit();
-            this.groupControl13.SuspendLayout();
             this.SuspendLayout();
             // 
             // timer2
@@ -146,7 +146,7 @@ namespace Ticari_Otamasyon
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label5.Location = new System.Drawing.Point(23, 18);
+            this.label5.Location = new System.Drawing.Point(33, 18);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(173, 24);
@@ -180,7 +180,7 @@ namespace Ticari_Otamasyon
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.Location = new System.Drawing.Point(92, 13);
+            this.label3.Location = new System.Drawing.Point(86, 13);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(104, 24);
@@ -279,6 +279,9 @@ namespace Ticari_Otamasyon
             // 
             // gridView2
             // 
+            this.gridView2.Appearance.Row.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.gridView2.Appearance.Row.BackColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.gridView2.Appearance.Row.Options.UseBackColor = true;
             this.gridView2.GridControl = this.gridControl2;
             this.gridView2.Name = "gridView2";
             this.gridView2.OptionsView.ShowGroupPanel = false;
@@ -360,6 +363,24 @@ namespace Ticari_Otamasyon
             this.xtraTabPage1.Size = new System.Drawing.Size(1534, 573);
             this.xtraTabPage1.Text = "Kasa Giriş Hareketleri";
             // 
+            // groupControl13
+            // 
+            this.groupControl13.Controls.Add(this.gridControl1);
+            this.groupControl13.Location = new System.Drawing.Point(510, 4);
+            this.groupControl13.Name = "groupControl13";
+            this.groupControl13.Size = new System.Drawing.Size(1017, 280);
+            this.groupControl13.TabIndex = 19;
+            this.groupControl13.Text = "Müşteri Hareketler";
+            // 
+            // groupControl12
+            // 
+            this.groupControl12.Controls.Add(this.gridControl3);
+            this.groupControl12.Location = new System.Drawing.Point(510, 288);
+            this.groupControl12.Name = "groupControl12";
+            this.groupControl12.Size = new System.Drawing.Size(1017, 280);
+            this.groupControl12.TabIndex = 18;
+            this.groupControl12.Text = "Firma Hareketler";
+            // 
             // gridControl3
             // 
             this.gridControl3.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -410,7 +431,7 @@ namespace Ticari_Otamasyon
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(6, 14);
+            this.label4.Location = new System.Drawing.Point(18, 14);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(190, 24);
@@ -444,7 +465,7 @@ namespace Ticari_Otamasyon
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label15.Location = new System.Drawing.Point(83, 18);
+            this.label15.Location = new System.Drawing.Point(79, 18);
             this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(113, 24);
@@ -478,7 +499,7 @@ namespace Ticari_Otamasyon
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label13.Location = new System.Drawing.Point(46, 18);
+            this.label13.Location = new System.Drawing.Point(50, 18);
             this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(150, 24);
@@ -512,7 +533,7 @@ namespace Ticari_Otamasyon
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label11.Location = new System.Drawing.Point(21, 18);
+            this.label11.Location = new System.Drawing.Point(29, 18);
             this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(175, 24);
@@ -546,7 +567,7 @@ namespace Ticari_Otamasyon
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label9.Location = new System.Drawing.Point(72, 18);
+            this.label9.Location = new System.Drawing.Point(70, 18);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(124, 24);
@@ -580,7 +601,7 @@ namespace Ticari_Otamasyon
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label7.Location = new System.Drawing.Point(57, 18);
+            this.label7.Location = new System.Drawing.Point(59, 18);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(139, 24);
@@ -599,24 +620,6 @@ namespace Ticari_Otamasyon
             this.xtraTabControl1.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
             this.xtraTabPage1,
             this.xtraTabPage2});
-            // 
-            // groupControl12
-            // 
-            this.groupControl12.Controls.Add(this.gridControl3);
-            this.groupControl12.Location = new System.Drawing.Point(510, 288);
-            this.groupControl12.Name = "groupControl12";
-            this.groupControl12.Size = new System.Drawing.Size(1017, 280);
-            this.groupControl12.TabIndex = 18;
-            this.groupControl12.Text = "Firma Hareketler";
-            // 
-            // groupControl13
-            // 
-            this.groupControl13.Controls.Add(this.gridControl1);
-            this.groupControl13.Location = new System.Drawing.Point(510, 4);
-            this.groupControl13.Name = "groupControl13";
-            this.groupControl13.Size = new System.Drawing.Size(1017, 280);
-            this.groupControl13.TabIndex = 19;
-            this.groupControl13.Text = "Müşteri Hareketler";
             // 
             // frmKasa
             // 
@@ -655,6 +658,10 @@ namespace Ticari_Otamasyon
             ((System.ComponentModel.ISupportInitialize)(series2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl1)).EndInit();
             this.xtraTabPage1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl13)).EndInit();
+            this.groupControl13.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl12)).EndInit();
+            this.groupControl12.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl9)).EndInit();
@@ -677,10 +684,6 @@ namespace Ticari_Otamasyon
             this.groupControl4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).EndInit();
             this.xtraTabControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl12)).EndInit();
-            this.groupControl12.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl13)).EndInit();
-            this.groupControl13.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

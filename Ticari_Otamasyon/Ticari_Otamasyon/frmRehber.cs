@@ -42,19 +42,19 @@ namespace Ticari_Otamasyon
             FirmaListesi();
         }
 
-        private void gridView1_DoubleClick(object sender, EventArgs e)
+        private void GridView1_DoubleClick_1(object sender, EventArgs e)
         {
             FrmMail frm = new FrmMail();
             DataRow dr = gridView1.GetDataRow(gridView1.FocusedRowHandle);
 
-            if (dr!=null)
+            if (dr != null)
             {
                 frm.Mail = dr["MAIL"].ToString();
             }
             frm.Show();
         }
 
-        private void gridView2_DoubleClick(object sender, EventArgs e)
+        private void GridView2_DoubleClick(object sender, EventArgs e)
         {
             FrmMail frm = new FrmMail();
             DataRow dr = gridView2.GetDataRow(gridView2.FocusedRowHandle);
