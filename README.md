@@ -6,7 +6,7 @@ Projemin videosu: https://www.youtube.com/watch?v=Iqld7lsfgYs)
 
 Mail= genccbilal@gmail.com
 
-LinkedIn= (https://www.linkedin.com/in/bilalgencc/)
+LinkedIn= (https://www.linkedin.com/in/bilalgnc/)
 
 
 ![Giriş](https://user-images.githubusercontent.com/96884922/194082529-7b03d157-f886-47d1-b3dc-079cc8f544e9.png)
